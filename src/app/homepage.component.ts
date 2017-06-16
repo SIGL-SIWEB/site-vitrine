@@ -7,7 +7,6 @@ import * as  $  from 'jquery';
   styleUrls : ['./homepage.component.css']
 })
 export class HomepageComponent {
-  title = 'app works!';
 
   function ($) {
 
