@@ -7,11 +7,14 @@
       <div class="wrap-hero-content">
         <div class="hero-content">
           <h1>
-            SIGL
+            {{'SIGL' | translate}}
           </h1>
           <p class="sub-title">
-            La majeure dédiée au Système d'information et au Génie Logiciel
+            {{'Slogan' | translate}}
           </p>
+            <img style="margin: 5px" (click)="changeLanguage('fr')" src="../assets/images/flag/France.png"/>
+             <img style="margin: 5px" (click)="changeLanguage('en')" src="../assets/images/flag/England.png"/>
+       
         </div>
       </div>
     </div>
