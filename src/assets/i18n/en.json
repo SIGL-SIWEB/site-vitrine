@@ -20,5 +20,8 @@
     "L&M" : "Leadership and Management",
     "L&MText" : "Handling the new business models in order to answer the IT governance's new requirements and train tommorrow's managers",
     "D&T" : "Digitalization and Transformation",
-    "D&TText" : "Undestanding and make Digital Transformation viable for companies as well as the new innovation levers provided by the IT"
+    "D&TText" : "Undestanding and make Digital Transformation viable for companies as well as the new innovation levers provided by the IT",
+    "Proj" : "Our projects",
+    "ARCL" : "Cloud Architecture",
+    "ARCLText" : "Creation of an hybrid cloud using Openstack technologies as well as Paas Services such as AWS or Microsoft Azure"
   }
