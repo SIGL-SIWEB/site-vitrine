@@ -7,6 +7,18 @@
     "Projects": "Projects",
     "Disciplines": "Disciplines",
     "Careers": "Career Oportunities",
-    "Testimonies": "Testimonies"
-
+    "Testimonies": "Testimonies",
+    "À Propos de SIGL" : "About SIGL",
+    "AboutText" :
+    "Companies have to develop Information Systems and complex software which primary qualities are their abilities to evolve, their reliability as well as their performance. Companies needs are evolving ever faster with the apparition of new market actors and disruptive business models backed up by the promise of new technologies, even more connected and cheaper than ever. There is a need to go faster in order to transform the existing systems and create the new business services for today and tommorrow : Online Presence, Interconnection with all Informaiton Systems, new real-time services, better knowing of clients.",
+    "ModulesIntro" : 
+    "In order to better prepare our students for the business community, SIGL specialty is focused on 4 majors topics, every one of which bringing a part of the skills and culture required in order to build tommorrow's technologies",
+    "M&A" : "Mobility and Applications",
+    "M&AText" : "Discover and grasp the new software challenges in order to integrate itself in growing mobility requirements",
+    "C&A" : "Cloud and Architecture",
+    "C&AText" : "Understanding the building and functionning process of Information Systems as well as its technical architeture. Discovering Cloud technologies and Big Data",
+    "L&M" : "Leadership and Management",
+    "L&MText" : "Handling the new business models in order to answer the IT governance's new requirements and train tommorrow's managers",
+    "D&T" : "Digitalization and Transformation",
+    "D&TText" : "Undestanding and make Digital Transformation viable for companies as well as the new innovation levers provided by the IT"
   }
