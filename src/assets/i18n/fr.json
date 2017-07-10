@@ -45,7 +45,27 @@
     "LM_DIGI" : "DIGI : Digitalisation",
     "LM_VIT2" : "VIT2 : Virtualisation & Transformation IT",
     "LM_METH" : "METH : Méthodes",
-    "LM_PERS" : "PERS : Perspectives IT"
+    "LM_PERS" : "PERS : Perspectives IT",
+    "LM_OPCO_text" : "<p>Etre en mesure de gérer rationnellement son temps, d’appliquer efficacement son organisation personnelle et son mode de fonctionnement, afin d’accroître sa performance dans la réalisation des ses activités</p><p>Etre en mesure de renforcer son efficacité professionnelle par une meilleure qualité de sa communication tant écrite qu’orale</p><p>Etre capable, in fine, de conduire à bien son projet professionnel de concert avec sa vie privée </p>",
+    "LM_AMOA_text" : "<p>Être en mesure au niveau du SI d’entreprise et en vue d’yexercer ses responsabilités</p><p>Identifier le rôle, la mission et le positionnement de la MOA</p><p>Déterminer les responsabilités respectives entre MOA et MOE</p><p>Être capable, dans le rôle d’un consultant ESN, de conduire une étude d’organisation en appui au développement de produits / services SI</p>",
+    "LM_OPDI_text" : "<p>Comprendre l’impact du digital sur les organisation DSI</p><p>Comment améliorer la performance d’une DSI</p><p>Savoir bâtir la vision cible de la fonction informatique</p><p>Evaluer le retour sur investissement des projets informatiques</p><p>Comprendre les leviers de réduction de coûts au sein d’une DSI</p>",
+    "LM_COIN_text" : "<p>Apprendre à se connaître</p><p>Développer son savoir-être</p><p>Avoir des clés pour mieux communiquer et travailler en équipe</p>",
+    "LM_URSI_text" : "<p>Apprendre à se connaître</p><p>Développer son savoir-être</p><p>Avoir des clés pour mieux communiquer et travailler en équipe</p>",
+    "LM_VIT1_text" : "<p>Sensibilisation aux problématiques d’engagement des projets par les DSI</p><p>Fournir les notions de base de la construction d’une étude de ROI</p><p>Dérouler ces notions ensemble autour de cas de virtualisation d’infrastructure IT</p><p>Fournir les connaissances technologiques autour de la virtualisation</p>",
+    "LM_ARCL_text" : "<p>Valider les acquis d’une méthode d’architecture en concevant un Cloud et une application Cloud-Based</p><p>Développer les connaissances autours d’un Cloud Computing</p><p>Tester une solution de Cloud basée sur les technologies OpenSource ou propriétaires</p>",
+    "LM_SOAR_text" : "<p>Comprendre et appliquer une démarche de « solution architecture »</p><p>Comprendre les enjeux et composants de l’infrastructure</p>",
+    "LM_ARLA_text" : "<p></p>",
+    "LM_MEPA_text" : "<p>Connaissance générale des problématiques de productivité des développements</p><p>Expérimentation d’outils associés aux méthodes agiles de cadrage et développement</p><p>Confrontation aux problématiques de tout projet telles que reprioriosation et silver bullet</p>",
+    "LM_ACOO_text" : "<p>Aide pour les autres matières SIGL</p><p>Intégration en entreprise</p><p>Réussite certains tests d’admissions </p><p>Effectuer une démarche</p>",
+    "LM_NLPF_text" : " <p>Avoir une culture des nouveaux langages et frameworks</p><p>Intégration en entreprise</p><p>Effectuer une démarche de comparaison et d’analyse</p>  ",
+    "LM_DEVO_text" : "<p>Connaître la valeur ajoutée du DevOps par rapport à une méthodologie plus classique</p><p>Comprendre comment transformer une organisation projet vers le DevOps</p>",
+    "LM_ACCC_text" : "<p>Comprendre les enjeux d’une transformation</p><p>Comprendre les bases de la conduite du changement</p>",
+    "LM_INNO_text" : "<p>Savoir utiliser les méthodes d’innovation et de créativité pour la résolution de problèmes business</p><p>Appliquer la méthode à un cas business réel</p>",
+    "LM_PMDE_text" : "<p>Aborder les difficultés par dichotomie</p><p>Identifier des solutions concrêtes</p><p>Délivrer une mission de conseil</p>",
+    "LM_DIGI_text" : "<p>Autour de mon expérience dans le marché de l'art avec le développement des ventes Live en direct sur Internet. Je montre comment la digitalisation d'une industrie pré-existante dans le monde physique, en l’occurrence le marché de l'art et les ventes aux enchères publiques, est un mix entre innovation et transformation.</p><p>J'aborde le sujet sous différents angles. Celui du média Interencheres et celui des commissairespriseurs. Je tisse des parallèles avec le ecommerce et les industries de la distribution et du commerce. </p><p>Un cours qui matérialise la différence entre innovation et transformation, qui propose une approche par phase de la digitalisation d'une industrie pré-existante au web. Qui esquisse des pistes pour réussir la conduite du changement. Qui montre la nécessité de procéder d'une vision à long-terme sans pour autant traîner en chemin quand les pure-players de l'Internet sont à l’affût </p>",
+    "LM_VIT2_text" : "<p>Discuter du modèle financier et technologique autour du Cloud</p> <p>Appréhender une démarche non sollicité chez un client tirée par l’attrait du Business Case</p> <p>Appréhender une démarche de consulting de haut niveau chez un client avec démarche de transformation globale à grande échelle</p>",
+    "LM_METH_text" : "<p>Apprentissage de méthodes de développement</p> <p>Formation aux modèles conceptuels sous tendus à ces méthodes</p> <p>Mise en situation</p>",
+    "LM_PERS_text" : "<p>Comprendre et maîtriser l’évolution et les tendances du marché informatique. </p> <p>Répondre à une problématique d’Enterprise par la mise en oeuvre d’une solution à base d’IoT</p> <p>Développer des compétences en synthèse, analyse et innovation</p>"
 
    
 
