@@ -24,8 +24,30 @@
     "D&TText" : "Comprendre et et rendre viable la transformation digitale des entreprises ainsi que les nouveaux leviers d'innovation rendus possibles par l'IT et ses conséquences.",
     "Proj" : "Nos Projets",
     "ARCL" : "Architecture Cloud",
-    "ARCLText" : "Créer un cloud hybride avec AWS/Azure et la suite logiciel opensource Openstack managé par un CMP"
+    "ARCLText" : "Créer un cloud hybride avec AWS/Azure et la suite logiciel opensource Openstack managé par un CMP",
+    
+    "LM_OPCO" : "OPCO : Organisation Personnelle et Communication",
+    "LM_AMOA" : "AMOA : Maitrise d’ouvrage des SI",
+    "LM_OPDI" : "OPDI : Organisation et pilotage d’une DSI",
+    "LM_COIN" : "COIN : Communication Interpersonnelle",
+    "LM_URSI" : "URSI : Urbanisation des SI",
+    "LM_VIT1" : "VIT1 : Virtualisation & Transformation ITs",
+    "LM_ARCL" : "ARCL : Architecture Cloud",
+    "LM_SOAR" : "SOAR : Solution Architecture ( + TD infrastructures & Projet PMS)",
+    "LM_ARLA" : "ARLA : Architecture Logicielle",
+    "LM_MEPA" : "MEPA : Mise en pratique agile",
+    "LM_ACOO" : "ACOO : Analyse et Conception Orienté Objet",
+    "LM_NLPF" : "NLPF : Nouveaux Langages de Prog. et Framework",
+    "LM_DEVO" : "DEVO : DevOps",
+    "LM_ACCC" : "ACCC : Accompagnement au Changement",
+    "LM_INNO" : "INNO : Innovation",
+    "LM_PMDE" : "PMDE : Projet mode d’emploi",
+    "LM_DIGI" : "DIGI : Digitalisation",
+    "LM_VIT2" : "VIT2 : Virtualisation & Transformation IT",
+    "LM_METH" : "METH : Méthodes",
+    "LM_PERS" : "PERS : Perspectives IT"
 
+   
 
 
   }
