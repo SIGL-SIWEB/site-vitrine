@@ -1,7 +1,7 @@
 <router-outlet></router-outlet>
-<nav class="navbar navbar-default navbar-gradient navbar-fixed-top">
+<nav class="navbar navbar-default navbar-gradient navbar-fixed-top" style="background:#696969">
   <div class="container">
-    <div class="navbar-header page-scroll">
+    <div class="navbar-header page-scroll" >
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -10,31 +10,40 @@
                     </button>
 
       <a class="navbar-brand page-scroll" href="#page-top">
-                        <img class="logo" src="./assets/images/logo.png" alt="logo">
+                        <img class="" src="./assets/images/assetProject/SIGL.png" alt="logo">
                     </a>
     </div>
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav">
         <li>
-          <a class="page-scroll" href="#hero">Accueil</a>
+          <a class="page-scroll" href="#hero">{{'Home' | translate}}</a>
         </li>
         <li>
-          <a class="page-scroll" href="#about">A propos</a>
+          <a class="page-scroll" href="#about">{{'About' | translate}}</a>
         </li>
         <li>
-          <a class="page-scroll" href="#pricing">Modules</a>
+          <a class="page-scroll" href="#pricing">{{'Modules' | translate}}</a>
         </li>
         <li>
-          <a class="page-scroll" href="#features">Projets</a>
+          <a class="page-scroll" href="#features">{{'Projects' | translate}}</a>
         </li>
         <li>
-          <a class="page-scroll" href="#faq">Liste des matieres</a>
+          <a class="page-scroll" href="#faq">{{'Disciplines' | translate}}</a>
         </li>
         <li>
-          <a class="page-scroll" href="#opportunities">Les débouchés</a>
+          <a class="page-scroll" href="#opportunities">{{'Careers' | translate}}</a>
         </li>
         <li>
-          <a class="page-scroll" href="#review">Témoignages</a>
+          <a class="page-scroll" href="#socials">{{'Social' | translate}}</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#review">{{'Testimonies' | translate}}</a>
+        </li>
+        <li>
+         <img  height="24" width="24" style="margin: 5px" (click)="changeLanguage('fr')" src="../assets/images/flag/France.png"/>
+        </li>
+        <li>
+          <img height="24" width="24" style="margin: 5px" (click)="changeLanguage('en')" src="../assets/images/flag/England.png"/>
         </li>
         
       </ul>

@@ -1,5 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import * as  $  from 'jquery';
+import {TranslateService} from 'ng2-translate';
+
+const defaultLanguage = "en";
+const additionalLanguages = ["fr","en"];
+const languages: string[] = 
+[defaultLanguage].concat(additionalLanguages);
 
 @Component({
   selector: 'app-root',
@@ -7,6 +13,22 @@ import * as  $  from 'jquery';
   styleUrls : ['./homepage.component.css']
 })
 export class HomepageComponent {
+	    constructor(private translate: TranslateService) {
+			this.translate.setDefaultLang(defaultLanguage);
+        this.translate.addLangs(additionalLanguages);
+ 
+        let initLang = this.translate.getBrowserLang();
+        if (languages.indexOf(initLang) === -1) {
+            initLang = defaultLanguage;
+        }
+        this.translate.use(initLang);
+    }
+ 
+   
+
+  changeLanguage(lang){
+	this.translate.use(lang);
+  }
 
   function ($) {
 
@@ -59,4 +81,19 @@ export class HomepageComponent {
 	});
 
 };
+
+	ngAfterViewInit () {
+            !function(d,s,id){
+                var js: any,
+                    fjs=d.getElementsByTagName(s)[0],
+                    p='https';
+                if(!d.getElementById(id)){
+                    js=d.createElement(s);
+                    js.id=id;
+                    js.src=p+"://platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js,fjs);
+                }
+            }
+            (document,"script","twitter-wjs");
+    }
 }
