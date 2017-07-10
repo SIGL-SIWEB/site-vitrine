@@ -1,0 +1,53 @@
+{
+    "SIGL": "SIGL",
+    "Slogan": "La majeure dédiée au Système d'information et au Génie Logiciel",
+    "Home": "Accueil",
+    "About": "A propos",
+    "Modules": "Modules",
+    "Projects": "Projets",
+    "Disciplines": "Liste des matières",
+    "Careers": "Débouchés",
+    "Social": "Contact & Réseau",
+    "Testimonies": "Témoignages",
+    "About SIGL" : "À Propos de SIGL",
+    "AboutText":
+    "Les entreprises ont à développer des systèmes d'informations et des logiciels complexes dont les qualités principales sont la capacité à évoluer, la fiabilité et la performance. Les besoins des entreprises évoluent toujours plus rapidement avec l'apparition de nouveaux acteurs et des modèles économiques disruptifs soutenus par la promesse de nouvelles technologies hyper connectées et toujours moins chères à utiliser. Il faut donc aller plus vite pour transformer l'existant et pour créer les nouveaux services métiers d'aujourd'hui et de demain : être totalement présent sur Internet, s'interconnecter avec tous les systèmes d'information de l'entreprise et à un écosystème toujours plus vaste, proposer de nouveaux e-services en temps réel, mieux connaître ses clients",
+    "ModulesIntro" : 
+    "Afin de préparer au mieux les étudiants au monde de l'entreprise, la majeure SIGL s'articule autour de 4 modules majeurs apportant chacun une partie de la culture et des connaissances requises pour construire les technologies de demain.",
+    "M&A" : "Mobilité et Applications",
+    "M&AText" : "Découvrir et appréhender les nouveaux challenges du logiciel afin de s'intégrer dans des contraintes de mobilité toujours plus grandes.",
+    "C&A" : "Cloud et Architecture",
+    "C&AText" : "Comprendre le mode de construction et le fonctionnement des systèmes d'information ainsi que son architecture technique. Découverte des technologies Cloud et du Big Data.",
+    "L&M" : "Leadership et Management",
+    "L&MText" : "Maitriser les nouveaux modèles économiques afin de répondre aux nouveaux besoins de la gouvernance IT et de former les managers de demain.",
+    "D&T" : "Digitalisation et Transformation",
+    "D&TText" : "Comprendre et et rendre viable la transformation digitale des entreprises ainsi que les nouveaux leviers d'innovation rendus possibles par l'IT et ses conséquences.",
+    "Proj" : "Nos Projets",
+    "ARCL" : "Architecture Cloud",
+    "ARCLText" : "Créer un cloud hybride avec AWS/Azure et la suite logiciel opensource Openstack managé par un CMP",
+    
+    "LM_OPCO" : "OPCO : Organisation Personnelle et Communication",
+    "LM_AMOA" : "AMOA : Maitrise d’ouvrage des SI",
+    "LM_OPDI" : "OPDI : Organisation et pilotage d’une DSI",
+    "LM_COIN" : "COIN : Communication Interpersonnelle",
+    "LM_URSI" : "URSI : Urbanisation des SI",
+    "LM_VIT1" : "VIT1 : Virtualisation & Transformation ITs",
+    "LM_ARCL" : "ARCL : Architecture Cloud",
+    "LM_SOAR" : "SOAR : Solution Architecture ( + TD infrastructures & Projet PMS)",
+    "LM_ARLA" : "ARLA : Architecture Logicielle",
+    "LM_MEPA" : "MEPA : Mise en pratique agile",
+    "LM_ACOO" : "ACOO : Analyse et Conception Orienté Objet",
+    "LM_NLPF" : "NLPF : Nouveaux Langages de Prog. et Framework",
+    "LM_DEVO" : "DEVO : DevOps",
+    "LM_ACCC" : "ACCC : Accompagnement au Changement",
+    "LM_INNO" : "INNO : Innovation",
+    "LM_PMDE" : "PMDE : Projet mode d’emploi",
+    "LM_DIGI" : "DIGI : Digitalisation",
+    "LM_VIT2" : "VIT2 : Virtualisation & Transformation IT",
+    "LM_METH" : "METH : Méthodes",
+    "LM_PERS" : "PERS : Perspectives IT"
+
+   
+
+
+  }
