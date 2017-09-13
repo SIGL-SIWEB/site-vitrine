@@ -44,5 +44,6 @@
     "LM_DIGI" : "DIGI : Digitalisation",
     "LM_VIT2" : "VIT2 : Virtualisation & Transformation IT",
     "LM_METH" : "METH : Méthodes",
-    "LM_PERS" : "PERS : Perspectives IT"
+    "LM_PERS" : "PERS : Perspectives IT",
+    "githubIssue" : "Report an issue"
   }
