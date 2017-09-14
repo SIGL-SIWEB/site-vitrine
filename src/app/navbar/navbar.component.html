@@ -1,5 +1,5 @@
 <router-outlet></router-outlet>
-<nav class="navbar navbar-default navbar-gradient navbar-fixed-top" style="background:#696969">
+<nav class="navbar navbar-default navbar-dark navbar-fixed-top">
   <div class="container">
     <div class="navbar-header page-scroll" >
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -40,7 +40,10 @@
           <a class="page-scroll" href="#review">{{'Testimonies' | translate}}</a>
         </li>
         <li>
-         <img  height="24" width="24" style="margin: 5px" (click)="changeLanguage('fr')" src="./assets/images/flag/France.png"/>
+          <a class="page-scroll" href="https://sigl.epita.fr/">Intranet</a>
+        </li>
+        <li>
+         <img  height="24" width="24" style="margin: 5px" (click)="changeLanguage('fr')" src="../assets/images/flag/France.png"/>
         </li>
         <li>
           <img height="24" width="24" style="margin: 5px" (click)="changeLanguage('en')" src="./assets/images/flag/England.png"/>

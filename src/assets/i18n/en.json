@@ -25,6 +25,7 @@
     "Proj" : "Our projects",
     "ARCL" : "Cloud Architecture",
     "ARCLText" : "Creation of an hybrid cloud using Openstack technologies as well as Paas Services such as AWS or Microsoft Azure",
+<<<<<<< HEAD
     "LM_OPCO" : "OPCO : Personnal Organization and Communication",
     "LM_AMOA" : "AMOA : Information System Project Maangement",
     "LM_OPDI" : "OPDI : Information Systems Steering and Organization",
@@ -45,4 +46,27 @@
     "LM_VIT2" : "VIT2 : Virtualization and IT Transformation",
     "LM_METH" : "METH : Methods",
     "LM_PERS" : "PERS : IT Perspectives"
+=======
+    "LM_OPCO" : "OPCO : Organisation Personnelle et Communication",
+    "LM_AMOA" : "AMOA : Maitrise d’ouvrage des SI",
+    "LM_OPDI" : "OPDI : Organisation et pilotage d’une DSI",
+    "LM_COIN" : "COIN : Communication Interpersonnelle",
+    "LM_URSI" : "URSI : Urbanisation des SI",
+    "LM_VIT1" : "VIT1 : Virtualisation & Transformation ITs",
+    "LM_ARCL" : "ARCL : Architecture Cloud",
+    "LM_SOAR" : "SOAR : Solution Architecture ( + TD infrastructures & Projet PMS)",
+    "LM_ARLA" : "ARLA : Architecture Logicielle",
+    "LM_MEPA" : "MEPA : Mise en pratique agile",
+    "LM_ACOO" : "ACOO : Analyse et Conception Orienté Objet",
+    "LM_NLPF" : "NLPF : Nouveaux Langages de Prog. et Framework",
+    "LM_DEVO" : "DEVO : DevOps",
+    "LM_ACCC" : "ACCC : Accompagnement au Changement",
+    "LM_INNO" : "INNO : Innovation",
+    "LM_PMDE" : "PMDE : Projet mode d’emploi",
+    "LM_DIGI" : "DIGI : Digitalisation",
+    "LM_VIT2" : "VIT2 : Virtualisation & Transformation IT",
+    "LM_METH" : "METH : Méthodes",
+    "LM_PERS" : "PERS : Perspectives IT",
+    "githubIssue" : "Report an issue"
+>>>>>>> bc97fc9551b3ce5396a465e49c20917c7b024acd
   }
