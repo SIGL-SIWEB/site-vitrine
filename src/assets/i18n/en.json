@@ -25,6 +25,20 @@
     "Proj" : "Our projects",
     "ARCL" : "Cloud Architecture",
     "ARCLText" : "Creation of an hybrid cloud using Openstack technologies as well as Paas Services such as AWS or Microsoft Azure",
+    "VIRT" : "Virtualization",
+    "VIRTText" : "Business case realization based on cost lines and savings levers",
+    "IOTText" : "Creation of an IoT Object and realize Marketing processes (Business Case, Commercial) as well as the realization",
+    "PAEText" : "Group Project in partnership with several companies : Profesionnal Relationships, Société Générale, Korn Ferry...",
+    "URSI" : "IS Urbanization",
+    "URSIText" : "Creation of an Information System simulating a Retail company's behavior",
+    "WTText" : "Two-sided project realized with modern web technologies (Free Choice) : ROR, Javascript, Golang...",
+    "PMS" : "Multi-specialty Project",
+    "PMSText" : "SIGL, Security and Network students work together in order to propose a transformation solution",
+    "MEPA" : "Agile Methodology",
+    "MEPAText" : "Scrum-Compliant Project realized in group of 4",
+    "ARCHText" : "Class Project in order to understand all possible aspects of IS Arcitecture",
+
+
     "LM_OPCO" : "OPCO : Personnal Organization and Communication",
     "LM_AMOA" : "AMOA : Information System Project Maangement",
     "LM_OPDI" : "OPDI : Information Systems Steering and Organization",
@@ -44,5 +58,10 @@
     "LM_DIGI" : "DIGI : Digitalization",
     "LM_VIT2" : "VIT2 : Virtualization and IT Transformation",
     "LM_METH" : "METH : Methods",
-    "LM_PERS" : "PERS : IT Perspectives"
+    "LM_PERS" : "PERS : IT Perspectives",
+
+
+
+
+    "DEB" : "Opportunities"
   }

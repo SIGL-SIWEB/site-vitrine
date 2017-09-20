@@ -25,6 +25,19 @@
     "Proj" : "Nos Projets",
     "ARCL" : "Architecture Cloud",
     "ARCLText" : "Créer un cloud hybride avec AWS/Azure et la suite logiciel opensource Openstack managé par un CMP",
+    "VIRT" : "Virtualisation",
+    "VIRTText" : "Réalisation de Business cases projets se basant sur des lignes de coûts et des leviers d’économies.",
+    "IOTText" : "Proposer un produit IoT puis le marketer (BCase, pub vidéo) jusqu'à la réalistion d'un Proof Of Concept.",
+    "PAEText" : "Projet avec entreprise tout le long de l'année; SIGL, RE, Société Général, KornFerry, GN... ",
+    "URSI" : "Urbanisation des SI",
+    "URSIText" : "Développement d'un SI simulant le comportement d'une société de distibution tel que la Fnac et Darty.",
+    "WTText" : "Deux projets avec des technologies modernes différentes au choix; ROR, Javascript, Golang... ",
+    "PMS" : "Multi-Spé",
+    "PMSText" : "Etudiants SIGL, Sécurité et Réseaux' se regroupent afin de proposer une solution de transformation à un metier qui en a besoin (ex: hopitaux).",
+    "MEPA" : "Méthodologie Agile",
+    "MEPAText" : "Projet libre respectant les principes et les bonne pratiques de l'Agile.",
+    "ARCHText" : "Projet de classe permettant de comprendre toutes les facettes de l'Architecture des SI ",
+
     
     "LM_OPCO" : "OPCO : Organisation Personnelle et Communication",
     "LM_AMOA" : "AMOA : Maitrise d’ouvrage des SI",
@@ -66,7 +79,9 @@
     "LM_VIT2_text" : "<p>Discuter du modèle financier et technologique autour du Cloud</p> <p>Appréhender une démarche non sollicité chez un client tirée par l’attrait du Business Case</p> <p>Appréhender une démarche de consulting de haut niveau chez un client avec démarche de transformation globale à grande échelle</p>",
     "LM_METH_text" : "<p>Apprentissage de méthodes de développement</p> <p>Formation aux modèles conceptuels sous tendus à ces méthodes</p> <p>Mise en situation</p>",
     "LM_PERS_text" : "<p>Comprendre et maîtriser l’évolution et les tendances du marché informatique. </p> <p>Répondre à une problématique d’Enterprise par la mise en oeuvre d’une solution à base d’IoT</p> <p>Développer des compétences en synthèse, analyse et innovation</p>",
-    "githubIssue" : "Reporter un bug"
+    "githubIssue" : "Reporter un bug",
+
+    "DEB" : "Les débouchés"
 
    
 
