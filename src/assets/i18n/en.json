@@ -12,6 +12,7 @@
     "À Propos de SIGL" : "About SIGL",
     "AboutText" :
     "Companies have to develop Information Systems and complex software which primary qualities are their abilities to evolve, their reliability as well as their performance. Companies needs are evolving ever faster with the apparition of new market actors and disruptive business models backed up by the promise of new technologies, even more connected and cheaper than ever. There is a need to go faster in order to transform the existing systems and create the new business services for today and tommorrow : Online Presence, Interconnection with all Informaiton Systems, new real-time services, better knowing of clients.",
+    "Matières" : "Course List",
     "ModulesIntro" : 
     "In order to better prepare our students for the business community, SIGL specialty is focused on 4 majors topics, every one of which bringing a part of the skills and culture required in order to build tommorrow's technologies",
     "M&A" : "Mobility and Applications",
@@ -63,5 +64,29 @@
 
 
 
-    "DEB" : "Opportunities"
+    "DEB" : "Opportunities",
+
+    "Tech" : "Technical",
+    "Dev" : "Developper",
+    "Expert" : "Specialized Expert",
+    "ConsTech" : "Technical Consultant",
+    "IngSyst" : "System Engineer",
+    "Chercheur" : "Searcher",
+
+    "Com" : "Commercial",
+    "IngAffaires" : "Business Engineer",
+    "RespCompte" : "Accountant Manager",
+    "AvV" : "Pre-Sales Manager",
+
+    "Orga" : "Organizational",
+    "Dir" : "Managaing Director (CTO, CIO)",
+    "DirProd" : "Production Director",
+    "ConsOrga" : "Organizational Consultant",
+
+    "Plur" : "Multidisciplinary",
+    "Archi" : "Software Engineer",
+    "ChefProj" : "Project Leader",
+    "IngQA" : "QA Engineer",
+    "AMOA" : "Assistance to Mastery of Work",
+    "BizDev" : "Business Developper"
   }
