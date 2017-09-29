@@ -60,6 +60,86 @@
     "LM_VIT2" : "VIT2 : Virtualization and IT Transformation",
     "LM_METH" : "METH : Methods",
     "LM_PERS" : "PERS : IT Perspectives",
+    "OBJ" : "Objectives:",
+    
+    
+        "LM_OPCO_text1" : "Being able to manage time, and efficiently apply a personnal organization",
+        "LM_OPCO_text2" : "Being able to reinforce professionnal efficiency using a better communication",
+        "LM_OPCO_text3" : "Being able to manage its own professionnal project",
+       
+        "LM_AMOA_text1" : "Apprehend and understand Information System from a company's POV",
+        "LM_AMOA_text2" : "Identify roles, missions and positionning of Prject Management",
+        "LM_AMOA_text3" : "Define responsibilities between Project Management's business units",
+        "LM_AMOA_text4" : "Being Able to conduct an organizational study for IT products / services",
+       
+        "LM_OPDI_text1" : "Understand digital impact on Information Systems",
+        "LM_OPDI_text2" : "Improve IT System Department's performance",
+        "LM_OPDI_text3" : "Build a trget infrastructure",
+        "LM_OPDI_text4" : "Evaluate IT Projects' Return on Investment",
+        "LM_OPDI_text5" : "Understand IT System Department Cost Reduction Levers",
+       
+        "LM_COIN_text1" : "Learn to know yourself",
+        "LM_COIN_text2" : "Develop you know-how-to-be",
+        "LM_COIN_text3" : "Understand the keys concepts of communication and teamwork",
+       
+        "LM_URSI_text1" : "Discover Information Systems reality in a company",
+        "LM_URSI_text2" : "Understand Middleware base that supports it",
+        "LM_URSI_text3" : "Understanding Integration issues within the Information System",
+        "LM_URSI_text4" : "Grasp the concept of innovation within the IS",
+       
+        "LM_VIT1_text1" : "Sensitize issues about IT projects within the IS",
+        "LM_VIT1_text2" : "Understand basic concepts of ROI prediction",
+        "LM_VIT1_text3" : "Practice with study cases about virtualization",
+        "LM_VIT1_text4" : "Understand key notions of virtualization",
+       
+        "LM_ARCL_text1" : "Validate skills acquisition by building a private cloud and a cloud-based application",
+        "LM_ARCL_text2" : "Understand key notions of Cloud Computing",
+        "LM_ARCL_text3" : "Test an open-source Cloud solution",
+    
+        "LM_SOAR_text1" : "Understand and practice the implementation of a Solution Architecture",
+        "LM_SOAR_text2" : "Understand key components of infrastructure",
+        
+        "LM_ARLA_text" : "",
+        
+        "LM_MEPA_text1" : "General concepts of development productivity's issues",
+        "LM_MEPA_text2" : "Experiment tools associated with Agile's planning and development methods",
+        "LM_MEPA_text3" : "Face issues such as repriorization and silver bullet",
+    
+        "LM_ACOO_text1" : "Toolbox for other SIGL courses",
+        "LM_ACOO_text2" : "Business integration",
+        "LM_ACOO_text3" : "Learn key concepts of UML and Object-oriented development",
+        "LM_ACOO_text4" : "Practice several conception approaches",
+        
+        "LM_NLPF_text" : "Understand culture of new programmation languages and frameworks",
+        
+        "LM_DEVO_text1" : "Understand Devops added value against classical development methods",
+        "LM_DEVO_text2" : "Understand the DevOps transformation within a project",
+    
+        "LM_ACCC_text1" : "Understad what's at stake during a transformation",
+        "LM_ACCC_text2" : "Learn key notions of Change Management",
+    
+        "LM_INNO_text1" : "Use creative and innovative methods for problem solving",
+        "LM_INNO_text2" : "Plly method to study cases",
+    
+        "LM_PMDE_text1" : "Learn how to approach issues using dichotomy",
+        "LM_PMDE_text2" : "Identify concrete solutions",
+        "LM_PMDE_text3" : "Deliver counsel mission",
+    
+        "LM_DIGI_text1" : "Autour de mon expérience dans le marché de l'art avec le développement des ventes Live en direct sur Internet. Je montre comment la digitalisation d'une industrie pré-existante dans le monde physique, en l’occurrence le marché de l'art et les ventes aux enchères publiques, est un mix entre innovation et transformation.",
+        "LM_DIGI_text2" : "J'aborde le sujet sous différents angles. Celui du média Interencheres et celui des commissaires-priseurs. Je tisse des parallèles avec le ecommerce et les industries de la distribution et du commerce.",
+        "LM_DIGI_text3" : "Un cours qui matérialise la différence entre innovation et transformation, qui propose une approche par phase de la digitalisation d'une industrie pré-existante au web. Qui esquisse des pistes pour réussir la conduite du changement. Qui montre la nécessité de procéder d'une vision à long-terme sans pour autant traîner en chemin quand les pure-players de l'Internet sont à l’affût",
+        
+        "LM_VIT2_text1" : "Discuss financial and technological model based around cloud computing",
+        "LM_VIT2_text2" : "Apprehend unsollicited action with a client and elaborate a Business Case",
+        "LM_VIT2_text3" : "Understand key notions of cloud transformation",
+    
+        "LM_METH_text1" : "Learning development methods",
+        "LM_METH_text2" : "Formation of conceptual models and there methods",
+        "LM_METH_text3" : "Take part in simulations",
+    
+        "LM_PERS_text1" : "Undestand and control the evolutions of the IT market.",
+        "LM_PERS_text2" : "Solve an enterprise problem by implementing an IoT solution", 
+        "LM_PERS_text3" : "Develop synthesis, analysis and innovation skills",
 
 
 
