@@ -875,11 +875,6 @@ hr.hr-icon-dark-light:after {
 
 
 
-.center{
-    margin:auto;
-    float:none;  /* annule le float:left de bootstrap*/;
-    text-align: center;
-}
 
 
 
