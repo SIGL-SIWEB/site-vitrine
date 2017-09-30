@@ -1007,10 +1007,8 @@
           <article class="tiles">
             <div class="">
               <!-- class pic pour surligner 'image et proposition read more-->
-              <img src="assets/images/blog/technique.jpg" alt="blog">
-              <ul class="more">
-                <li><a href="blog-single-post-image.html">Read More</a></li>
-              </ul>
+              <img src="assets/images/blog/new/technique.jpg" alt="blog">
+            
             </div>
             <!-- /.pic -->
             <div class="tiles-content">
@@ -1037,10 +1035,8 @@
           <article class="tiles">
             <div class="">
               <!-- class pic pour surligner 'image et proposition read more-->
-              <img src="assets/images/blog/commercial.jpg" alt="blog">
-              <ul class="more">
-                <li><a href="blog-single-post-image.html">Read More</a></li>
-              </ul>
+              <img src="assets/images/blog/new/commercial.jpg" alt="blog">
+              
             </div>
             <!-- /.pic -->
             <div class="tiles-content">
@@ -1069,10 +1065,8 @@
           <article class="tiles">
             <div class="">
               <!-- class pic pour surligner 'image et proposition read more-->
-              <img src="assets/images/blog/organisation.jpg" alt="blog">
-              <ul class="more">
-                <li><a href="blog-single-post-image.html">Read More</a></li>
-              </ul>
+              <img src="assets/images/blog/new/organisation.jpg" alt="blog">
+              
             </div>
             <!-- /.pic -->
             <div class="tiles-content">
@@ -1098,7 +1092,7 @@
           <article class="tiles">
             <div class="">
               <!-- class pic pour surligner 'image et proposition read more-->
-              <img src="assets/images/blog/pluriel.jpg" alt="blog">
+              <img src="assets/images/blog/new/pluriel.jpg" alt="blog">
               <ul class="more">
                 <li><a href="blog-single-post-image.html">Read More</a></li>
               </ul>
@@ -1141,19 +1135,38 @@
       </div>
       <hr class="hr-title-01 hr-icon">
 
+      <div class="col-md-3"></div>
       <div class="col-md-6">
         <a class="twitter-timeline" data-height="500" href="https://twitter.com/SIGL_EPITA">Tweets by SIGL_EPITA</a>
       </div>
-      <div class="col-md-6">
-        <a href="#" class="dark-btn"> <i class="fa fa-facebook"></i>             {{"Facebook" | translate}}</a>
-      </div>
-      <div class="col-md-6">
-        <a href="mailto:laboratoire.sigl@epita.fr" class="gradient-btn">
-                                <span>{{"Contact" | translate}}</span>
-                    </a>
+      <div class="col-md-3"></div>
+      
       </div>
 
+
+      <div class="row">
+  
+
+          <div class="col-md-4">
+              <a href="https://github.com/dev-sigl/site-vitrine/issues/new" class="dark-btn"> <i class="fa fa-github"></i> &emsp; {{ 'githubIssue' | translate}}</a>
+          </div>
+
+          <div class="col-md-4">
+              <a href="https://www.facebook.com/SIGL.EPITA/" class="dark-btn"> <i class="fa fa-facebook"></i> &emsp;{{"Facebook" | translate}}</a>
+          </div>
+     
+          
+         
+
+          <div class="col-md-4">  
+              <a href="mailto:laboratoire.sigl@epita.fr" class="dark-btn"> <i class="fa fa-address-book"></i> &emsp;{{"Contact" | translate}}</a>
+          </div>
+
+        
+      
     </div>
+
+  
 
   </div>
 </section>
@@ -1261,20 +1274,74 @@
 
 <!-- footer -->
 
-<footer class="footer">
-
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3 center">
-        <a target="_blanck" type="button" href="https://github.com/laboratoire-sigl/site-vitrine/issues/new" class="btn btn-default btn-xs "> {{ 'githubIssue' | translate}}</a>
-
+<footer>
+  <div class="footer" id="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12">
+                  <h3> Les majeures</h3>
+                  <ul>
+                      <li> <a href="http://www.epita.fr/cursus-cycle-ingenieur-majeures.aspx"> MTI (Multimédia et Technologies de l'Information) </a> </li>
+                      <li> <a href="http://www.epita.fr/cursus-cycle-ingenieur-majeures.aspx"> Recherche CSI (Calcul Scientifique et Image) </a> </li>
+                      <li> <a href="https://srs.epita.fr"> SRS (Systèmes, Réseaux et Sécurité) </a> </li>
+                      <li> <a href="http://www.epita.fr/cursus-cycle-ingenieur-majeures.aspx"> GISTRE (Génie Informatique des Systèmes Temps Réel et Embarqués) </a> </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12">
+                <h3> &emsp; </h3>
+                  <ul>
+                      <li> <a href="https://tcom.epita.fr/fr/"> TCOM (Télécommunications) </a> </li>
+                      <li> <a href="https://sigl.epita.fr"> SIGL (Systèmes d'Information et Génie Logiciel) </a> </li>
+                      <li> <a href="http://www.epita.fr/cursus-cycle-ingenieur-majeures.aspx"> GITM (Global IT Management) </a> </li>
+                      <li> <a href="http://www.epita.fr/cursus-cycle-ingenieur-majeures.aspx"> SCIA (Sciences Cognitives et Informatique Avancée) </a> </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12">
+                  <h3> Laboratoires </h3>
+                  <ul>
+                      <li> <a href="https://www.3ie.fr"> Institut d’Innovation Informatique de l’EPITA </a> </li>
+                      <li> <a href="https://www.lrde.epita.fr/wiki/Main_Page"> EPITA Research & Development Laboratory (LRDE) </a> </li>
+                      <li> <a href="https://www.lse.epita.fr"> Laboratoire Système d'EPITA (LSE) </a> </li>
+                     
+                  </ul>
+              </div>
+              <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12">
+                  <h3> Associations </h3>
+                  <ul>
+                      <li> <a href="http://www.epita.fr/entreprises-association.aspx"> <li> <a href="http://www.epita.fr/entreprises-association.aspx"> Cristal </a> </li> </a> </li>
+                      <li> <a href="http://www.epiworld.org/"> Epiworld </a> </li>
+                      <li> <a href="http://blogs.ionis-group.com/epita/2016/03/episport-association-ecoles-groupe-ionis-sport-2016.html"> Episport</a> </li>
+                      <li> <a href="http://www.epita.fr/vie-etudiante-associations.aspx">Toutes les autres assosiations</a> </li>
+                  </ul>
+              </div>
+              <!--
+              <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
+                  <h3> Lorem Ipsum </h3>
+                  <ul>
+                      <li>
+                          <div class="input-append newsletter-box text-center">
+                              <input type="text" class="full text-center" placeholder="Email ">
+                              <button class="btn  bg-gray" type="button"> Lorem ipsum <i class="fa fa-long-arrow-right"> </i> </button>
+                          </div>
+                      </li>
+                  </ul>
+                  <ul class="social">
+                      <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> </li>
+                      <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+                      <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                      <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                      <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                  </ul>
+              </div>-->
+          </div>
+          <!--/.row--> 
       </div>
-    </div>
+      <!--/.container--> 
   </div>
-
-
-  <!-- /.container -->
-  <a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
+  <!--/.footer-->
+  
+ 
+  <!--/.footer-bottom--> 
 </footer>
 <!-- /.footer -->
 
