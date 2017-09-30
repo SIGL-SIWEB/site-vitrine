@@ -11,7 +11,7 @@
     "Testimonies": "Témoignages",
     "About SIGL" : "À Propos de SIGL",
     "AboutText":
-    "Les entreprises ont à développer des systèmes d'informations et des logiciels complexes dont les qualités principales sont la capacité à évoluer, la fiabilité et la performance. Les besoins des entreprises évoluent toujours plus rapidement avec l'apparition de nouveaux acteurs et des modèles économiques disruptifs soutenus par la promesse de nouvelles technologies hyper connectées et toujours moins chères à utiliser. Il faut donc aller plus vite pour transformer l'existant et pour créer les nouveaux services métiers d'aujourd'hui et de demain : être totalement présent sur Internet, s'interconnecter avec tous les systèmes d'information de l'entreprise et à un écosystème toujours plus vaste, proposer de nouveaux e-services en temps réel, mieux connaître ses clients",
+    "Les entreprises ont à développer des systèmes d'information et des logiciels complexes dont les qualités principales sont leur capacités à évoluer, leur fiabilité ainsi que leur performance. Les besoins des entreprises évoluent toujours plus rapidement avec l'apparition de nouveaux acteurs et de modèles économiques disruptifs soutenus par la promesse de nouvelles technologies hyper-connectées et toujours moins chères à utiliser. Il faut donc aller plus vite pour transformer l'existant et pour créer les nouveaux services/métiers d'aujourd'hui et de demain : être totalement présent sur Internet, s'interconnecter avec tous les systèmes d'information de l'entreprise et à un écosystème toujours plus vaste, proposer de nouveaux e-services en temps réel, mieux connaître ses clients",
     "Matières"  : "Liste des matières",
     "ModulesIntro" : 
     "Afin de préparer au mieux les étudiants au monde de l'entreprise, la majeure SIGL s'articule autour de 4 modules majeurs apportant chacun une partie de la culture et des connaissances requises pour construire les technologies de demain.",
@@ -25,18 +25,18 @@
     "D&TText" : "Comprendre et et rendre viable la transformation digitale des entreprises ainsi que les nouveaux leviers d'innovation rendus possibles par l'IT et ses conséquences.",
     "Proj" : "Nos Projets",
     "ARCL" : "Architecture Cloud",
-    "ARCLText" : "Créer un cloud hybride avec AWS/Azure et la suite logiciel opensource Openstack managé par un CMP",
+    "ARCLText" : "Créer un cloud hybride avec AWS/Azure et la suite logicielle opensource Openstack managé par une Cloud Management Platform",
     "VIRT" : "Virtualisation",
     "VIRTText" : "Réalisation de Business cases projets se basant sur des lignes de coûts et des leviers d’économies.",
-    "IOTText" : "Proposer un produit IoT puis le marketer (BCase, pub vidéo) jusqu'à la réalistion d'un Proof Of Concept.",
+    "IOTText" : "Proposer un produit IoT puis réaliser l'ensemble de la démarche business (Business Case, Publicité) jusqu'à la réalistion d'un Proof Of Concept.",
     "PAEText" : "Projet avec entreprise tout le long de l'année; SIGL, RE, Société Général, KornFerry, GN... ",
     "URSI" : "Urbanisation des SI",
-    "URSIText" : "Développement d'un SI simulant le comportement d'une société de distibution tel que la Fnac et Darty.",
+    "URSIText" : "Développement d'un SI simulant le comportement d'une société de distibution telle que le groupe FNAC/Darty.",
     "WTText" : "Deux projets avec des technologies modernes différentes au choix; ROR, Javascript, Golang... ",
     "PMS" : "Multi-Spé",
-    "PMSText" : "Etudiants SIGL, Sécurité et Réseaux' se regroupent afin de proposer une solution de transformation à un metier qui en a besoin (ex: hopitaux).",
+    "PMSText" : "Etudiants SIGL, Sécurité et Réseau se regroupent afin de proposer une solution de transformation dans un cadre concret",
     "MEPA" : "Méthodologie Agile",
-    "MEPAText" : "Projet libre respectant les principes et les bonne pratiques de l'Agile.",
+    "MEPAText" : "Projet libre respectant les principes et les bonne pratiques de l'Agile et de la méthode SCRUM.",
     "ARCHText" : "Projet de classe permettant de comprendre toutes les facettes de l'Architecture des SI ",
 
     
@@ -45,7 +45,7 @@
     "LM_OPDI" : "OPDI : Organisation et pilotage d’une DSI",
     "LM_COIN" : "COIN : Communication Interpersonnelle",
     "LM_URSI" : "URSI : Urbanisation des SI",
-    "LM_VIT1" : "VIT1 : Virtualisation & Transformation ITs",
+    "LM_VIT1" : "VIT1 : Virtualisation & Transformation IT",
     "LM_ARCL" : "ARCL : Architecture Cloud",
     "LM_SOAR" : "SOAR : Solution Architecture ( + TD infrastructures & Projet PMS)",
     "LM_ARLA" : "ARLA : Architecture Logicielle",
@@ -82,8 +82,8 @@
     "LM_COIN_text2" : "Développer son savoir-être",
     "LM_COIN_text3" : "Avoir des clés pour mieux communiquer et travailler en équipe",
    
-    "LM_URSI_text1" : "Découvrir la réalité d’un SI à l’échelle",
-    "LM_URSI_text2" : "Comprendre les socles middleware qui le supporte ",
+    "LM_URSI_text1" : "Découvrir la réalité d’un SI à l’échelle de l'entreprise",
+    "LM_URSI_text2" : "Comprendre le socle middleware qui le supporte ",
     "LM_URSI_text3" : "Comprendre la problématique d’intégration du SI",
     "LM_URSI_text4" : "Appréhender l’innovation dans le SI",
    
@@ -99,7 +99,7 @@
     "LM_SOAR_text1" : "Comprendre et appliquer une démarche de « solution architecture »",
     "LM_SOAR_text2" : "Comprendre les enjeux et composants de l’infrastructure",
     
-    "LM_ARLA_text" : "",
+    "LM_ARLA_text" : "Acquérir les bases de l'Architecture logicielle",
     
     "LM_MEPA_text1" : "Connaissance générale des problématiques de productivité des développements",
     "LM_MEPA_text2" : "Expérimentation d’outils associés aux méthodes agiles de cadrage et développement",
