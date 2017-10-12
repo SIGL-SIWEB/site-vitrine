@@ -170,7 +170,22 @@
     "BizDev" : "Business Developper",
 
     "Facebook" : "Nous rejoindre sur Facebook",
-    "Contact" : "Nous contacter"
+    "Contact" : "Nous contacter",
+
+    "MTI" :  "MTI (Multimédia et Technologies de l'Information)",
+    "CSI" : "Recherche CSI (Calcul Scientifique et Image)",
+    "SRS" : "SRS (Systèmes, Réseaux et Sécurité)",
+    "GISTRE" : "GISTRE (Génie Informatique des Systèmes Temps Réel et Embarqués)",
+    "TCOM" : "TCOM (Télécommunications)",
+    "SIGLM" : " SIGL (Systèmes d'Information et Génie Logiciel) ",
+    "GITM" : " GITM (Global IT Management) ",
+    "SCIA" : "SCIA (Sciences Cognitives et Informatique Avancée)",
+    "3IE" : "Institut d’Innovation Informatique de l’EPITA ", 
+    "LRDE" : "Laboratoire de Recherche et Développement de l'EPITA (LRDE)",
+    "LSE" : " Laboratoire Système d'EPITA (LSE) ",
+
+    "OtherAsso" : "Toutes les autres associations"
+
 
    
 
