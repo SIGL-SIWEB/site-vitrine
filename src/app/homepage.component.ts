@@ -1,3 +1,4 @@
+import { IssueService } from './services/issues.service';
 import { Component, OnInit } from '@angular/core';
 import * as  $  from 'jquery';
 import {TranslateService} from 'ng2-translate';
@@ -10,10 +11,12 @@ const languages: string[] =
 @Component({
   selector: 'app-root',
   templateUrl: './homepage.component.html',
-  styleUrls : ['./homepage.component.css']
+  styleUrls : ['./homepage.component.css'],
+  providers : [IssueService]
 })
-export class HomepageComponent {
-	    constructor(private translate: TranslateService) {
+export class HomepageComponent implements OnInit {
+		constructor(private translate: TranslateService,
+					private issueServ : IssueService) {
 			this.translate.setDefaultLang(defaultLanguage);
         this.translate.addLangs(additionalLanguages);
  
@@ -22,7 +25,21 @@ export class HomepageComponent {
             initLang = defaultLanguage;
         }
         this.translate.use(initLang);
-    }
+	}
+
+	private issueClicked : boolean;
+
+	ngOnInit() {
+		this.issueClicked = false;
+	}
+
+	clickIssue() {
+		this.issueClicked = !this.issueClicked;
+	}
+	
+	reportIssue(title : string, body : string) {
+		return this.issueServ.reportIssue(title, body);
+	}
  
    
 

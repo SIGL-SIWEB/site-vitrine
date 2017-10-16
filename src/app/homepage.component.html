@@ -487,7 +487,7 @@
           </div>
         </div>
 
-        <div class="col-xs-12 col-md-4">
+        <div class="col-xs-12 col-md-3">
           <div class="box">
             <div style="margin: 20px;" data-os-animation="fadeInDown">
               <span><img src="assets/images/assetProject/architecture.png" width="70" height="70"/></span>
@@ -1147,7 +1147,8 @@
       <div class="row">
   
           <div class="col-md-4 text-center">
-              <a href="https://github.com/dev-sigl/site-vitrine/issues/new" class="dark-btn"> <i class="fa fa-github"></i> &emsp; {{ 'githubIssue' | translate}}</a>
+
+              <button class="btn dark-btn" type="button" data-target='#issue' data-toggle='collapse'> <i class="fa fa-github"></i> &emsp; {{ 'githubIssue' | translate}}</button>      
           </div>
 
           <div class="col-md-4">
@@ -1158,7 +1159,22 @@
               <a href="mailto:laboratoire.sigl@epita.fr" class="dark-btn"> <i class="fa fa-address-book"></i> &emsp;{{"Contact" | translate}}</a>
           </div>
    
-    </div>
+      </div>
+      <div id="issue" class="row collapse">
+        <form class="col-lg-6" (ngSubmit)="this.reportIssue(title.value, body.value)">
+            <div class="form-group">
+                <label>Issue name</label>
+                <input type="text" class='form-control'  placeholder="Enter a title for your issue" #title name="title">
+            </div>
+            <div class="form-group">
+                <label>Describe the issue more precisely</label>
+                <textarea class='form-control'  placeholder="Describe what happens" #body rows="3" name="body"></textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-default" type="submit">Report your issue</button>
+            </div>
+        </form>
+      </div>
   </div>
 </section>
 
