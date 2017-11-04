@@ -29,14 +29,15 @@
     "VIRT" : "Virtualization",
     "VIRTText" : "Business case realization based on cost lines and savings levers",
     "IOTText" : "Creation of an IoT Object and build marketing & business processes (Business Case, Advertising) as well as the realization",
-    "PAEText" : "Group Project in partnership with several companies : Profesionnal Relationships of EPITA, Société Générale, Korn Ferry...",
+    "PAEText" : "Group Project in partnership with several companies : Profesionnal Relationships of EPITA, Société Générale",
     "URSI" : "IS Urbanization",
     "URSIText" : "Creation of a reduced Information System simulating a Retail company's behavior",
     "WTText" : "Two-sided project realized with modern web technologies (Free Choice) : ROR, Javascript, Golang...",
     "PMS" : "Multi-specialty Project",
-    "PMSText" : "SIGL, Security and Network students work together in order to propose a transformation solution in a business context (Ex : Hospitals)",
+    "PMSText" : "SIGL, Security and Network students work together to propose a transformation solution in a real context",
     "MEPA" : "Agile Methodology",
-    "MEPAText" : "Scrum-Compliant Project realized in group. Apply SCRUM's best practices in a free choice project",
+    "MEPAText" : "Apply SCRUM's best practices in a free choice group project",
+    "ARCH" : "Architecture",
     "ARCHText" : "Class Project in order to understand all possible aspects of IS Architecture",
 
 
