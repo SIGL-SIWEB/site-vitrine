@@ -1148,7 +1148,7 @@
   
           <div class="col-md-4 text-center">
 
-              <button class="btn dark-btn" type="button" data-target='#issue' data-toggle='collapse'> <i class="fa fa-github"></i> &emsp; {{ 'githubIssue' | translate}}</button>      
+              <a class="dark-btn" type="button" href="mailto:laboratoire.sigl@epita.fr"> <i class="fa fa-github"></i> &emsp; {{ 'githubIssue' | translate}}</a>      
           </div>
 
           <div class="col-md-4">
@@ -1159,21 +1159,6 @@
               <a href="mailto:laboratoire.sigl@epita.fr" class="dark-btn"> <i class="fa fa-address-book"></i> &emsp;{{"Contact" | translate}}</a>
           </div>
    
-      </div>
-      <div id="issue" class="row collapse">
-        <form class="col-lg-6" (ngSubmit)="this.reportIssue(title.value, body.value)">
-          <div class="form-group">
-              <label>Issue name</label>
-              <input type="text" class='form-control'  placeholder="Enter a title for your issue" #title name="title">
-          </div>
-          <div class="form-group">
-              <label>Describe the issue more precisely</label>
-              <textarea class='form-control'  placeholder="Describe what happens" #body rows="3" name="body"></textarea>
-          </div>
-          <div class="form-group">
-              <button class="btn btn-default" type="submit">Report your issue</button>
-          </div>
-      </form>
       </div>
   </div>
 </section>
