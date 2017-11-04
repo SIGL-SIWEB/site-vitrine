@@ -2,7 +2,7 @@
     "SIGL": "SIGL",
     "Slogan": "La majeure dédiée au Système d'information et au Génie Logiciel",
     "Home": "Accueil",
-    "About": "A propos",
+    "About": "À propos",
     "Modules": "Modules",
     "Projects": "Projets",
     "Disciplines": "Liste des matières",
@@ -11,7 +11,7 @@
     "Testimonies": "Témoignages",
     "About SIGL" : "À Propos de SIGL",
     "AboutText":
-    "Les entreprises ont à développer des systèmes d'information et des logiciels complexes dont les qualités principales sont leurs capacités à évoluer, leur fiabilité ainsi que leur performance. Les besoins des entreprises évoluent toujours plus rapidement avec l'apparition de nouveaux acteurs et de modèles économiques disruptifs soutenus par la promesse de nouvelles technologies hyper-connectées et toujours moins chères à utiliser. Il faut donc aller plus vite pour transformer l'existant et pour créer les nouveaux services/métiers d'aujourd'hui et de demain : être totalement présent sur Internet, s'interconnecter avec tous les systèmes d'information de l'entreprise et à un écosystème toujours plus vaste, proposer de nouveaux e-services en temps réel, mieux connaître ses clients",
+    "Les entreprises ont à développer des systèmes d'information et des logiciels complexes dont les qualités principales sont leurs capacités à évoluer, leur fiabilité ainsi que leur performance. Les besoins des entreprises évoluent toujours plus rapidement avec l'apparition de nouveaux acteurs et de modèles économiques disruptifs soutenus par la promesse de nouvelles technologies hyper-connectées et toujours moins chères à utiliser. Il faut donc aller plus vite pour transformer l'existant et pour créer les nouveaux services/métiers d'aujourd'hui et de demain : être totalement présent sur Internet, s'interconnecter avec tous les systèmes d'information de l'entreprise et à un écosystème toujours plus vaste, proposer de nouveaux e-services en temps réel, mieux connaître ses clients.",
     "Matières"  : "Liste des matières",
     "ModulesIntro" : 
     "Afin de préparer au mieux les étudiants au monde de l'entreprise, la majeure SIGL s'articule autour de 4 modules majeurs apportant chacun une partie de la culture et des connaissances requises pour construire les technologies de demain.",
@@ -25,18 +25,18 @@
     "D&TText" : "Comprendre et rendre viable la transformation digitale des entreprises ainsi que les nouveaux leviers d'innovation rendus possibles par l'IT et ses conséquences.",
     "Proj" : "Nos Projets",
     "ARCL" : "Architecture Cloud",
-    "ARCLText" : "Mise en place d'un Cloud Hybride basé sur OpenStack permettant de mettre en pratique les concepts du Cloud : Design-For-Failure & Self-Service",
+    "ARCLText" : "Mise en place d'un cloud hybride basé sur OpenStack permettant de mettre en pratique les concepts du Cloud : Design-for-Failure & Self-Service",
     "VIRT" : "Virtualisation",
     "VIRTText" : "Réaliser un Business case se basant sur des lignes de coûts et des leviers d’économies.",
     "IOTText" : "Proposer un produit IoT puis réaliser l'ensemble de la démarche business (Business Case, Publicité) jusqu'à la réalistion d'un Proof Of Concept.",
     "PAEText" : "Projet avec entreprise tout le long de l'année; SIGL, RE, Société Général, KornFerry, GN... ",
     "URSI" : "Urbanisation des SI",
-    "URSIText" : "Développement d'un SI simulant le comportement d'une société de distibution telle que le groupe FNAC/Darty.",
+    "URSIText" : "Développement d'un SI simulant le comportement d'une société de distribution telle que le groupe FNAC/Darty.",
     "WTText" : "Deux projets avec des technologies modernes différentes au choix; ROR, Javascript, Golang... ",
     "PMS" : "Multi-Spé",
-    "PMSText" : "Etudiants SIGL, Sécurité et Réseau se regroupent afin de proposer une solution de transformation dans un cadre concret",
+    "PMSText" : "Étudiants SIGL, Sécurité et Réseau se regroupent afin de proposer une solution de transformation dans un cadre concret",
     "MEPA" : "Méthodologie Agile",
-    "MEPAText" : "Projet libre respectant les principes et les bonne pratiques de l'Agile et de la méthode SCRUM.",
+    "MEPAText" : "Projet libre respectant les principes et les bonnes pratiques de l'Agile et de la méthode SCRUM.",
     "ARCH" : "Architecture",
     "ARCHText" : "Projet de classe permettant de comprendre toutes les facettes de l'Architecture des SI ",
 
@@ -48,7 +48,7 @@
     "LM_URSI" : "URSI : Urbanisation des SI",
     "LM_VIT1" : "VIT1 : Virtualisation et Transformation IT",
     "LM_ARCL" : "ARCL : Architecture Cloud",
-    "LM_SOAR" : "SOAR : Solution Architecture ( + TD infrastructures & Projet PMS)",
+    "LM_SOAR" : "SOAR : Solution Architecture ( + TD infrastructure & Projet PMS)",
     "LM_ARLA" : "ARLA : Architecture Logicielle",
     "LM_MEPA" : "MEPA : Mise en pratique agile",
     "LM_ACOO" : "ACOO : Analyse et Conception Orienté Objet",
@@ -64,19 +64,19 @@
     "OBJ" : "Objectifs:",
 
 
-    "LM_OPCO_text1" : "Etre en mesure de gérer rationnellement son temps, d’appliquer efficacement son organisation personnelle et son mode de fonctionnement, afin d’accroître sa performance dans la réalisation des ses activités",
-    "LM_OPCO_text2" : "Etre en mesure de renforcer son efficacité professionnelle par une meilleure qualité de sa communication tant écrite qu’orale",
-    "LM_OPCO_text3" : "Etre capable, in fine, de conduire à bien son projet professionnel de concert avec sa vie privée",
+    "LM_OPCO_text1" : "Être en mesure de gérer rationnellement son temps, d’appliquer efficacement son organisation personnelle et son mode de fonctionnement, afin d’accroître sa performance dans la réalisation des ses activités",
+    "LM_OPCO_text2" : "Être en mesure de renforcer son efficacité professionnelle par une meilleure qualité de sa communication tant écrite qu’orale",
+    "LM_OPCO_text3" : "Être capable, in fine, de conduire à bien son projet professionnel de concert avec sa vie privée",
    
     "LM_AMOA_text1" : "Être en mesure au niveau du SI d’entreprise et en vue d’exercer ses responsabilités",
     "LM_AMOA_text2" : "Identifier le rôle, la mission et le positionnement de la MOA",
     "LM_AMOA_text3" : "Déterminer les responsabilités respectives entre MOA et MOE",
     "LM_AMOA_text4" : "Être capable, dans le rôle d’un consultant ESN, de conduire une étude d’organisation en appui au développement de produits / services SI",
    
-    "LM_OPDI_text1" : "Comprendre l’impact du digital sur les organisation DSI",
+    "LM_OPDI_text1" : "Comprendre l’impact du digital sur les organisations de la DSI",
     "LM_OPDI_text2" : "Comment améliorer la performance d’une DSI",
     "LM_OPDI_text3" : "Savoir bâtir la vision cible de la fonction informatique",
-    "LM_OPDI_text4" : "Evaluer le retour sur investissement des projets informatiques",
+    "LM_OPDI_text4" : "Évaluer le retour sur investissement des projets informatiques",
     "LM_OPDI_text5" : "Comprendre les leviers de réduction de coûts au sein d’une DSI",
    
     "LM_COIN_text1" : "Apprendre à se connaître",
@@ -94,7 +94,7 @@
     "LM_VIT1_text4" : "Fournir les connaissances technologiques autour de la virtualisation",
    
     "LM_ARCL_text1" : "Valider les acquis d’une méthode d’architecture en concevant un Cloud et une application Cloud-Based",
-    "LM_ARCL_text2" : "Développer les connaissances autours d’un Cloud Computing",
+    "LM_ARCL_text2" : "Développer les connaissances autour d’un Cloud Computing",
     "LM_ARCL_text3" : "Tester une solution de Cloud basée sur les technologies OpenSource ou propriétaires",
 
     "LM_SOAR_text1" : "Comprendre et appliquer une démarche de « solution architecture »",
@@ -104,7 +104,7 @@
     
     "LM_MEPA_text1" : "Connaissance générale des problématiques de productivité des développements",
     "LM_MEPA_text2" : "Expérimentation d’outils associés aux méthodes agiles de cadrage et développement",
-    "LM_MEPA_text3" : "Confrontation aux problématiques de tout projet telles que reprioriosation et silver bullet",
+    "LM_MEPA_text3" : "Confrontation aux problématiques de tout projet telles que repriorisation et silver bullet",
 
     "LM_ACOO_text1" : "Aide pour les autres matières SIGL",
     "LM_ACOO_text2" : "Intégration en entreprise",
@@ -123,19 +123,19 @@
     "LM_INNO_text2" : "Appliquer la méthode à un cas business réel",
 
     "LM_PMDE_text1" : "Aborder les difficultés par dichotomie",
-    "LM_PMDE_text2" : "Identifier des solutions concrêtes",
+    "LM_PMDE_text2" : "Identifier des solutions concrètes",
     "LM_PMDE_text3" : "Délivrer une mission de conseil",
 
     "LM_DIGI_text1" : "Autour de mon expérience dans le marché de l'art avec le développement des ventes Live en direct sur Internet. Je montre comment la digitalisation d'une industrie pré-existante dans le monde physique, en l’occurrence le marché de l'art et les ventes aux enchères publiques, est un mix entre innovation et transformation.",
     "LM_DIGI_text2" : "J'aborde le sujet sous différents angles. Celui du média Interencheres et celui des commissaires-priseurs. Je tisse des parallèles avec le ecommerce et les industries de la distribution et du commerce.",
-    "LM_DIGI_text3" : "Un cours qui matérialise la différence entre innovation et transformation, qui propose une approche par phase de la digitalisation d'une industrie pré-existante au web. Qui esquisse des pistes pour réussir la conduite du changement. Qui montre la nécessité de procéder d'une vision à long-terme sans pour autant traîner en chemin quand les pure-players de l'Internet sont à l’affût",
+    "LM_DIGI_text3" : "Un cours qui matérialise la différence entre innovation et transformation, qui propose une approche par phase de la digitalisation d'une industrie pré-existante au web. Qui esquisse des pistes pour réussir la conduite du changement. Qui montre la nécessité de procéder d'une vision à long terme sans pour autant traîner en chemin quand les pure-players de l'Internet sont à l’affût",
     
     "LM_VIT2_text1" : "Discuter du modèle financier et technologique autour du Cloud",
-    "LM_VIT2_text2" : "Appréhender une démarche non sollicité chez un client tirée par l’attrait du Business Case",
+    "LM_VIT2_text2" : "Appréhender une démarche non sollicitée chez un client attiré par l’attrait du Business Case",
     "LM_VIT2_text3" : "Appréhender une démarche de consulting de haut niveau chez un client avec démarche de transformation globale à grande échelle",
 
     "LM_METH_text1" : "Apprentissage de méthodes de développement",
-    "LM_METH_text2" : "Formation aux modèles conceptuels sous tendus à ces méthodes",
+    "LM_METH_text2" : "Formation aux modèles conceptuels sous-tendus à ces méthodes",
     "LM_METH_text3" : "Mise en situation",
 
     "LM_PERS_text1" : "Comprendre et maîtriser l’évolution et les tendances du marché informatique.",
