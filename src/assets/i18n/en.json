@@ -186,5 +186,8 @@
     "LRDE" : " LRDE (Research and Development Laboratory)",
     "LSE" : " LSE (System Laboratory) ",
 
-    "OtherAsso" : "Other student associations"
+    "OtherAsso" : "Other student associations",
+
+    "Maj": "Epita's Majors",
+    "Lab" : "Laboratories"
   }

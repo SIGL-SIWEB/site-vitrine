@@ -185,7 +185,11 @@
     "LRDE" : "Laboratoire de Recherche et Développement de l'EPITA (LRDE)",
     "LSE" : " Laboratoire Système d'EPITA (LSE) ",
 
-    "OtherAsso" : "Toutes les autres associations"
+    "OtherAsso" : "Toutes les autres associations",
+
+
+    "Maj" : "Les Majeures",
+    "Labs" : "Laboratoires"
 
 
    
