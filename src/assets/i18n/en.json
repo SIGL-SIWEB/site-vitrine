@@ -87,6 +87,10 @@
         "LM_URSI_text2" : "Understand Middleware base that supports it",
         "LM_URSI_text3" : "Understanding Integration issues within the Information System",
         "LM_URSI_text4" : "Grasp the concept of innovation within the IS",
+
+        "LM_ARLA_text1" : "Maîtriser les grands concepts et principes d’architecture logicielle",
+        "LM_ARLA_text2" : "Positionner l’architecture et l’architecte dans l’organisation",
+        "LM_ARLA_text3" : "Savoir analyser la pertinence de technologies logicielles pour chaque besoin",
        
         "LM_VIT1_text1" : "Sensitize issues about IT projects within the IS",
         "LM_VIT1_text2" : "Understand basic concepts of ROI prediction",
