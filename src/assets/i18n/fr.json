@@ -6,7 +6,7 @@
     "Modules": "Modules",
     "Projects": "Projets",
     "Disciplines": "Liste des matières",
-    "Careers": "Débouchés",
+    "Careers": "Opportunités",
     "Social": "Contact et Réseau",
     "Testimonies": "Témoignages",
     "About SIGL" : "À Propos de SIGL",
@@ -148,7 +148,7 @@
 
     "githubIssue" : "Reporter un bug",
 
-    "DEB" : "Les débouchés",
+    "DEB" : "Opportunités",
 
     "Tech" : "Technique",
     "Dev" : "Développeur",
