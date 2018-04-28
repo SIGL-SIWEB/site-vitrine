@@ -6,7 +6,7 @@
     "Modules": "Modules",
     "Projects": "Projets",
     "Disciplines": "Liste des matières",
-    "Careers": "Débouchés",
+    "Careers": "Opportunités",
     "Social": "Contact et Réseau",
     "Testimonies": "Témoignages",
     "About SIGL" : "À Propos de SIGL",
@@ -46,7 +46,7 @@
     "LM_OPDI" : "OPDI : Organisation et pilotage d’une DSI",
     "LM_COIN" : "COIN : Communication Interpersonnelle",
     "LM_URSI" : "URSI : Urbanisation des SI",
-    "LM_VIT1" : "VIT1 : Virtualisation et Transformation IT",
+    "LM_VIT1" : "VIRT : Virtualisation et Transformation IT",
     "LM_ARCL" : "ARCL : Architecture Cloud",
     "LM_SOAR" : "SOAR : Solution Architecture ( + TD infrastructure & Projet PMS)",
     "LM_ARLA" : "ARLA : Architecture Logicielle",
@@ -148,7 +148,7 @@
 
     "githubIssue" : "Reporter un bug",
 
-    "DEB" : "Les débouchés",
+    "DEB" : "Opportunités",
 
     "Tech" : "Technique",
     "Dev" : "Développeur",
@@ -166,6 +166,7 @@
     "Dir" : "Directeur Informatique (DI, DSI, CIO)",
     "DirProd" : "Directeur de production",
     "ConsOrga" : "Consultant Organisationnel",
+    "ConsStrat" : "Consultant Stratégie IT",
 
     "Plur" : "Pluriel",
     "Archi" : "Architecte Logiciel",
@@ -175,7 +176,7 @@
     "BizDev" : "Business Developper",
 
     "Facebook" : "Nous rejoindre sur Facebook",
-    "Contact" : "Nous contacter",
+    "Contact" : "Posez nous vos questions",
 
     "MTI" :  "MTI (Multimédia et Technologies de l'Information)",
     "CSI" : "Recherche CSI (Calcul Scientifique et Image)",
