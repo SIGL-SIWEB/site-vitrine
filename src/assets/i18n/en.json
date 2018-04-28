@@ -87,11 +87,7 @@
         "LM_URSI_text2" : "Understand Middleware base that supports it",
         "LM_URSI_text3" : "Understanding Integration issues within the Information System",
         "LM_URSI_text4" : "Grasp the concept of innovation within the IS",
-
-        "LM_ARLA_text1" : "Maîtriser les grands concepts et principes d’architecture logicielle",
-        "LM_ARLA_text2" : "Positionner l’architecture et l’architecte dans l’organisation",
-        "LM_ARLA_text3" : "Savoir analyser la pertinence de technologies logicielles pour chaque besoin",
-       
+               
         "LM_VIT1_text1" : "Sensitize issues about IT projects within the IS",
         "LM_VIT1_text2" : "Understand basic concepts of ROI prediction",
         "LM_VIT1_text3" : "Practice with study cases about virtualization",
@@ -104,7 +100,9 @@
         "LM_SOAR_text1" : "Understand and practice the implementation of a Solution Architecture",
         "LM_SOAR_text2" : "Understand key components of infrastructure",
         
-        "LM_ARLA_text" : "Acquire key concepts of Software Architecture",
+        "LM_ARLA_text1" : "Acquire key concepts and principles of Software Architecture",
+        "LM_ARLA_text2" : "To put the architecture and the architect into the organization",
+        "LM_ARLA_text3" : "Know how to analyze the relevance of software technologies for needs",
         
         "LM_MEPA_text1" : "General concepts of development productivity's issues",
         "LM_MEPA_text2" : "Experiment tools associated with Agile's planning and development methods",
@@ -176,7 +174,7 @@
     "AMOA" : "Assistance to Mastery of Work",
     "BizDev" : "Business Developper",
     "Facebook" : "Join Us On Facebook",
-    "Contact" : "Contact Us",
+    "Contact" : "Ask your questions",
 
 
     "MTI" :  "MIT (Multimedia and Information Technology)",
