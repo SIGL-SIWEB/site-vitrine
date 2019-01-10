@@ -56,6 +56,17 @@
         <script src="assets/js/pages/homepage-01.js"></script>
         <script src="assets/js/pages/homepage-03.js"></script>
         <script src="assets/js/pages/homepage-05.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('[data-toggle="popover"]').popover(
+                    {
+                        container : "body",
+                        html: true,
+                    }
+                );
+
+            });
+        </script>
 </head>
 <body>
   <app-root>Loading...</app-root>

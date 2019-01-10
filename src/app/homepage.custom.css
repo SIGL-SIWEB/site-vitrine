@@ -1,0 +1,33 @@
+.popover{
+    background-color:#b94a48;
+   border:none;
+   border-radius:unset;
+   min-width:100px;
+   width:100%;
+   max-width:400px;
+   overflow-wrap:break-word;
+}
+
+body.modal-open {
+    overflow: visible !important;
+}
+
+tr { 
+    border-width:1px;
+    border-style:solid; 
+    border-color:black;
+    }
+
+
+th {
+    padding-left:1%;
+    border-width:2px;
+    border-style:solid; 
+    border-color:black;
+    }
+
+button.link { 
+    background:none;
+    border:none;
+    color: blue;
+    }

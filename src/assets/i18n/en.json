@@ -1,4 +1,6 @@
 {
+    "relations entreprises" : "Corporate relations",
+    "Autre" : "Other",
     "SIGL": "SIGL",
     "Slogan": "The speciality dedicated to information systems and software engineering",
     "Home": "Home",
@@ -29,9 +31,10 @@
     "VIRT" : "Virtualization",
     "VIRTText" : "Business case realization based on cost lines and saving levers",
     "IOTText" : "Creation of an IoT Object and build marketing & business processes (Business Case, Advertising) as well as the realization",
-    "PAEText" : "Group Project in partnership with several companies : Professional Relationships of EPITA, Société Générale",
+    "PAEText" : "Group Project in partnership with several companies : Professional Relationships of EPITA, Korn Ferry ...",
     "URSI" : "IS Urbanization",
     "URSIText" : "Creation of a reduced Information System simulating a Retail company's behavior",
+    "Webtechnologies" : "Web technologies",
     "WTText" : "Two-sided project realized with modern web technologies (Free Choice) : ROR, Javascript, Golang...",
     "PMS" : "Multi-specialty Project",
     "PMSText" : "SIGL, Security and Network students work together to propose a transformation solution in a real context",
@@ -40,11 +43,10 @@
     "ARCH" : "Architecture",
     "ARCHText" : "Class Project in order to understand all possible aspects of IS Architecture",
 
-
     "LM_OPCO" : "OPCO : Personal Organization and Communication",
     "LM_AMOA" : "AMOA : Information System Project Management",
     "LM_OPDI" : "OPDI : Information Systems Steering and Organization",
-    "LM_COIN" : "COIN : Interpersonnal communication",
+    "LM_COIN" : "COIN : Interpersonal communication",
     "LM_URSI" : "URSI : Information Systems Urbanization",
     "LM_VIT1" : "VIRT : Virtualization & IT Transformation",
     "LM_ARCL" : "ARCL : Cloud Architecture",
@@ -113,8 +115,10 @@
         "LM_ACOO_text3" : "Learn key concepts of UML and Object-oriented development",
         "LM_ACOO_text4" : "Practice several conception approaches",
         
-        "LM_NLPF_text" : "Understand culture of new programmation languages and frameworks",
-        
+        "LM_NLPF_text1" : "Understand culture of new programmation languages and frameworks",
+        "LM_NLPF_text2" : "Business integration",
+        "LM_NLPF_text3" : "Perform a comparison and analysis process",
+
         "LM_DEVO_text1" : "Understand DevOps added value against classical development methods",
         "LM_DEVO_text2" : "Understand the DevOps transformation within a project",
     
@@ -143,9 +147,6 @@
         "LM_PERS_text1" : "Undestand and control the evolution of the IT market.",
         "LM_PERS_text2" : "Solve an enterprise problem by designing and creating an IoT solution", 
         "LM_PERS_text3" : "Develop synthesis, analysis and innovation skills",
-
-
-
 
     "DEB" : "Opportunities",
 
@@ -192,5 +193,38 @@
     "OtherAsso" : "Other student associations",
 
     "Maj": "Epita's Majors",
-    "Lab" : "Laboratories"
+    "Lab" : "Laboratories",
+
+    "ARCLDesc": "Deployment of a redundant, self-scalable and resilient wordpress on a hybrid cloud via Heat Implementation of a cloud management platform allowing automation of deployment. Use of openstack for the private cloud part.",
+
+    "IoTDay" : "IoT day",
+    "Siweb" : "Classroom management, intranet development, supervision of the SIGL park. Deployment of an OpenShift, virtualization, Dockers.",
+    "REprojet" : "Development of the Corporate relations website. Added features, maintenance and migration.",
+    "KF1" : "Succession aims to create a solution to help CAC40 companies to create and test their succession plan.",
+    "GN" : "Development of a real-size roleplaying scenario simulator.",
+    "IoTDayProjet" : "Organization of an IoT day to raise the awareness of the different EPITA promotions on the themes of today (Security, Cloud, IA, Smart cities). Realization of an escape game presenting topics to be addressed within the SIGL's specialty.",
+    "KF2" : "Development of a reporting website for managers and human resources to allow them to manageme action plan.",
+
+    "Ski" : "Connected ski mask with altitude and temperature sensors and a GPS to retrieve speed, altitude and temperature in real time.",
+    "E-rigator" : "System for watering your plants manually or automatically by day, month or in relation to humidity.",
+    "Piano" : "System for learning to play music on a piano with a connected support that reads MIDI files and lights diodes according to the notes to play.",
+    "BoiteAuLettre" : "Mail box with motion and weight sensors to send a notification on his phone in case of receipt of mail.",
+    "Sac" : "Backpack equipped with a RFID chip sensor to detect the stuff put in and send a notification in case of forgetting",
+    "Antivol" : "Anti-theft bike and scooter with a GPS to know the location of these and to be notified in case of theft",
+    "Tablettes" : "App for connecting tablets to allow the restaurant to take customer orders faster and send them to servers and in the kitchen.",
+    "Bracelet" : "Connected bracelet to monitor the health of a person (fall, heart rate) warning predefined people in case of problems.",
+
+    "PMSDesc" : "During this project you have to respond to a call for tenders on a digital transformation. In collaboration with the specialties SRS and TCOM you will have to bring your expertise on the different areas touch by this project. It is a project that immersed you in the professional world through real problem and scale.",
+
+    "VirtDesc" : "The goal of this project is to respond to a call on a project to implement a hybrid cloud and server virtualization to reduce infrastructure and human costs in a bank or business. insurance.",
+
+    "NLPFDesc" : "Realization of a website with two technological stack to have two different approach on the same project.",
+    
+    "ArchiDesc" : "During this project you would work on different aspects of IS architecture such as servers, storage, network, operating platforms, middleware and Workplace. You would also work on the financial and IT continuity aspects.",
+
+    "UrsiDesc1" : "During this project you will be led to create the IS of a distribution store. You should link the different applications that will be created between them to ensure the proper functioning of it. You will encounter problems of integration, flow for the application and communcation between the different teams. The project is separated into 3 roles:",
+    "UrsiDesc2" : "- Urbanists: Define the perimeter of the applications, the macro functionalities as well as the flows. Oversee the writing of specifications and project achievements. They arbitrate decision-making between different groups.", 
+    "UrsiDesc3" : "- Technical basis: Provision of development tools to developers as well as a work and integration environment. He also plays the role of technical support.",
+    "UrsiDesc4" : "- Developers: They take care of developing the various IS applications such as the back office, the stock, the purchases."
+
   }

@@ -11,7 +11,7 @@ const languages: string[] =
 @Component({
   selector: 'app-root',
   templateUrl: './homepage.component.html',
-  styleUrls : ['./homepage.component.css'],
+  styleUrls : ['./homepage.component.css', './homepage.custom.css'],
   providers : [IssueService]
 })
 export class HomepageComponent implements OnInit {

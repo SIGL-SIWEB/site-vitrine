@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+.popover{
+   border:none;
+   border-radius:unset;
+   min-width:100px;
+   width:100%;
+   max-width:1000px;
+   overflow-wrap:break-word;
+}
+
+th{
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+body.modal-open {
+    overflow: visible;
+}

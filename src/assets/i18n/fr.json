@@ -1,4 +1,6 @@
 {
+    "relations entreprises" : "Relations entreprises",
+    "Autre" : "Autre", 
     "SIGL": "SIGL",
     "Slogan": "La majeure dédiée au Système d'information et au Génie Logiciel",
     "Home": "Accueil",
@@ -29,9 +31,10 @@
     "VIRT" : "Virtualisation",
     "VIRTText" : "Réaliser un Business case se basant sur des lignes de coûts et des leviers d’économies.",
     "IOTText" : "Proposer un produit IoT puis réaliser l'ensemble de la démarche business (Business Case, Publicité) jusqu'à la réalistion d'un Proof Of Concept.",
-    "PAEText" : "Projet avec entreprise tout le long de l'année; SIGL, RE, Société Général, KornFerry, GN... ",
+    "PAEText" : "Projet avec entreprise tout le long de l'année; SIGL, RE, Korn Ferry, GN... ",
     "URSI" : "Urbanisation des SI",
     "URSIText" : "Développement d'un SI simulant le comportement d'une société de distribution telle que le groupe FNAC/Darty.",
+    "Webtechnologies" : "Technologies web",
     "WTText" : "Deux projets avec des technologies modernes différentes au choix; ROR, Javascript, Golang... ",
     "PMS" : "Multi-Spé",
     "PMSText" : "Étudiants SIGL, Sécurité et Réseau se regroupent afin de proposer une solution de transformation dans un cadre concret",
@@ -115,8 +118,10 @@
     "LM_ACOO_text3" : "Réussite de certains tests d’admissions",
     "LM_ACOO_text4" : "Effectuer une démarche",
     
-    "LM_NLPF_text" : "Avoir une culture des nouveaux langages et frameworks",
-    
+    "LM_NLPF_text1" : "Avoir une culture des nouveaux langages et frameworks",
+    "LM_NLPF_text2" : "Intégration en entreprise",
+    "LM_NLPF_text3" : "Effectuer une démarche de comparaison et d’analyse",
+
     "LM_DEVO_text1" : "Connaître la valeur ajoutée du DevOps par rapport à une méthodologie plus classique",
     "LM_DEVO_text2" : "Comprendre comment transformer une organisation projet vers le DevOps",
 
@@ -194,10 +199,39 @@
 
 
     "Maj" : "Les Majeures",
-    "Labs" : "Laboratoires"
+    "Labs" : "Laboratoires",
 
+    "ARCLDesc" : "Déploiement d'un wordpress redondé, auto-scalable et résilient sur un cloud hybride via Heat. Mise en place d'une cloud plateforme management permettant l'automatisation du déploiement. Utilisation d'openstack pour la partie cloud privé.",
+    "IoTDay" : "Journée de l'IoT",
+    "Siweb" : "Gestion de la vie de classe, développement d'un intranet, supervision du parc SIGL. Déploiement d'un OpenShift, virtualisation, Dockers.",
+    "REprojet" : "Développement du site des relations entreprises. Ajout de fonctionnalités, maintenance et migration.",
+    "KF1" : "Succession a pour but de créer une solution permettant d'aider les entreprises du CAC40 à créer et tester leur plan de succession.",
+    "GN" : "Développement d'un simulateur de scénario de jeux de rôles grandeur nature.",
+    "IoTDayProjet" : "Organisation d'une journée IoT pour sensibiliser les différentes promotions d'EPITA sur les thématiques d'aujourd'hui (Sécurité, Cloud, IA, Smart cities). Réalisation d'un escape game présentant les sujets aborder au sein de la spécialité SIGL.",
+    "KF2" : "Développement d'un site web de reporting pour les managers et les ressources humaines permettant la gestion de plan d'action.",
 
-   
+    "Ski" : "Masque de ski connecté comprenant des capteur d'altitude et de température ainsi que d'un gps afin de récuperer en temps réel la vitesse, l'altitude et la température.",
+    "E-rigator" : "Système permettant d'arroser ses plantes de façon automatique par jour, mois ou par rapport à l'humidité.",
+    "Piano" : "Système permettant d'apprendre à jouer des musiques sur un piano grâce à un support connecté qui lit des fichier MIDI et qui allume des diodes en fonction des notes à jouer.",
+    "BoiteAuLettre" : "Boîte au lettre disposant d'un capteur de mouvement et de poids permettant d'envoyer une notification sur son téléphone en cas de réception d'un courrier.",
+    "Sac" : "Sac à dos disposant d'un capteur de puce RFID permettant de détecter les affaires mis dedans et d'envoyer une notifications en cas d'oublis",
+    "Antivol" : "Antivol pour vélo et trotinette disposant d'un GPS permettant de savoir l'emplacement de ceux-ci et d'être notifié en cas de vol",
+    "Tablettes" : "Application permettant de connecter des tablettes afin de permettre au restaurant de prendre des commandes clients plus rapidement et de les envoyer aux serveurs et en cuisine.",
+    "Bracelet" : "Bracelet connecté permettant de monitorer la santé d'une personne (Chute, rythme cardiaque) prévenant des personnes prédéfinis en cas de problème.",
+
+    "PMSDesc" : "Au cours de ce projet il faut répondre à un appel d'offre sur une transformation digitale. En collaboration avec les spécialités SRS et TCOM vous devrez apporter votre expertise sur les différents domaines toucher par ce projet. C'est un projet qui vous mettra en immersion dans le monde professionel à travers des problématiques réel et d'envergure.",
+
+    "VirtDesc" : "Le but de ce projet est de réaliser un appel d'offre sur un projet de mise en place d'un cloud hybride et de virtualisation de serveur afin de réduire les coûts d'infrastructure et humain au sein d'une entreprise bancaire ou d'assurance.",
+
+    "NLPFDesc" : "Réalisation d'un site web avec deux stack technologique afin d'avoir deux approche différente sur un même projet.",
+    
+    "ArchiDesc" : "Au cours de ce projet vous travaillerais sur différents aspect de l'architecture des SI tel que les serveurs, le stockage, le réseau, les plateformes d'exploitation, les middlewares et le Workplace. Vous travaillerais également sur les aspects financier et de continuité.",
+
+    "UrsiDesc1" : "Au cours de de ce projet vous serez ammené à créer le SI d'un magasin de distribution. Vous devrais faire communiquer les différentes applications qui seront créer entre elle pour assurer le bon fonctionnement de celui-ci. Vous rencontrerez des problématiques d'intégration, de flux pour l'application et de communcation au sein des différentes équipes. Le projet est séparé en 3 rôles:",
+    "UrsiDesc2" : "- Urbanistes: Définir le périmètre des applications, les macro fonctionnalités ainsi que les flux.  Superviser la rédaction des spécifications et la réalisations des projets. Ils arbitrent les prises de décisions entre les différents groupes.", 
+    "UrsiDesc3" : "- Socle technique: Mise à disposition des outils de développement aux développeurs ainsi que d'un environnement de travail et d'intégration. Il jout aussi le rôle de support technique.",
+    "UrsiDesc4" : "- Développeurs: Ils s'occupent de développer les différentes applications du SI tel que le back-office, le stock, les achats."
+    
 
 
   }
