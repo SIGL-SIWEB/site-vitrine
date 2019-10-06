@@ -113,7 +113,9 @@
         "LM_ACOO_text3" : "Learn key concepts of UML and Object-oriented development",
         "LM_ACOO_text4" : "Practice several conception approaches",
         
-        "LM_NLPF_text" : "Understand culture of new programmation languages and frameworks",
+        "LM_NLPF_text1" : "Have a culture of new languages and frameworks",
+        "LM_NLPF_text2" : "Integration in a company",
+        "LM_NLPF_text3" : "Carry out a comparison and analysis process",
         
         "LM_DEVO_text1" : "Understand DevOps added value against classical development methods",
         "LM_DEVO_text2" : "Understand the DevOps transformation within a project",
