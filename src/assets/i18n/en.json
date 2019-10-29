@@ -192,5 +192,31 @@
     "OtherAsso": "Other student associations",
 
     "Maj": "Epita's Majors",
-    "Lab": "Laboratories"
+    "Lab": "Laboratories",
+
+    "JOB": "JOBS",
+    "OPCO_JOB": "IT Senior Consultant",
+    "AMOA_JOB": "Project Manager | GE DIGITAL",
+    "OPDI_JOB": "Vice-President Business Technology Innovation | Capgemini",
+    "COIN_JOB": "Head of EPITA's Innovation Laboratory | EPITA",
+    "URSI_JOB1": "Owner & Co-founder | ENIOKA",
+    "URSI_JOB2": "Director of the development entity | ENIOKA",
+    "VIRT_JOB": "Strategic Cloud Engineer | Google",
+    "ARCL_JOB": "Head of Public Cloud Center of Excellence | Société Générale",
+    "SOAR_JOB1": "Director of the Hybrid IT Expertise Centre | HPE",
+    "SOAR_JOB2": "Head of Public Cloud Center of Excellence | Société Générale",
+    "ARLA_JOB1": "DevOps Consultant | Octo Technology",
+    "ARLA_JOB2": "Software Engineer | bettermarks GmbH",
+    "MEPA_JOB1": "IT Senior Consultant | Octo Technology",
+    "MEPA_JOB2": "Product Owner | Octo Technology",
+    "ACOO_JOB": "Agile Coach | Groupe Renault",
+    "NLPF_JOB": "Agile Coach | Groupe Renault",
+    "DEVO_JOB": "DevOps Consultant | Octo Technology",
+    "ACCC_JOB": "Talent & leadership consulting | Korn Ferry",
+    "INNO_JOB": "Talent & leadership consulting | Korn Ferry",
+    "PMDE_JOB": "Co-founder & Manager | EXALT",
+    "DIGI_JOB": "Co-founder & Manager | EXALT",
+    "METH_JOB": "Head of Digital Foundry | Airbus",
+    "PERS_JOB1": "Director of the Hybrid IT Expertise Centre | HPE",
+    "PERS_JOB2": "Head of Digital Foundry | Airbus"
 }

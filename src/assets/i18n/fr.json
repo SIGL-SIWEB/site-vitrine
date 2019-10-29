@@ -195,10 +195,31 @@
 
 
     "Maj": "Les Majeures",
-    "Labs": "Laboratoires"
+    "Labs": "Laboratoires",
 
-
-
-
-
+    "JOB": "Métiers",
+    "OPCO_JOB": "Consultant Senior",
+    "AMOA_JOB": "Chef de projet | GE DIGITAL",
+    "OPDI_JOB": "Vice-présidente Innovation technologique en affaires | Capgemini",
+    "COIN_JOB": "Responsable du Laboratoire d'Innovation d'EPITA | EPITA",
+    "URSI_JOB1": "Président & Co-fondateur | ENIOKA",
+    "URSI_JOB2": "Directeur de l'entité de développement Haute Couture | ENIOKA",
+    "VIRT_JOB": "Ingénieur Stratégie Cloud | Google",
+    "ARCL_JOB": "Directeur du Centre d'excellence Cloud public | Société Générale",
+    "SOAR_JOB1": "Directeur Centre d'Expertise Hybrid IT | HPE",
+    "SOAR_JOB2": "Directeur du Centre d'excellence Cloud public | Société Générale",
+    "ARLA_JOB1": "Consultant DevOps | Octo Technology",
+    "ARLA_JOB2": "Ingénieur Logiciel | bettermarks GmbH",
+    "MEPA_JOB1": "Consultant Senior | Octo Technology",
+    "MEPA_JOB2": "Chef de Projet Digital | Octo Technology",
+    "ACOO_JOB": "Coach Agile | Groupe Renault",
+    "NLPF_JOB": "Coach Agile | Groupe Renault",
+    "DEVO_JOB": "Consultant DevOps | Octo Technology",
+    "ACCC_JOB": "Conseil en Talent et Leadership | Korn Ferry",
+    "INNO_JOB": "Conseil en Talent et Leadership | Korn Ferry",
+    "PMDE_JOB": "Co-fondateur et Manager | EXALT",
+    "DIGI_JOB": "Co-fondateur et Manager | EXALT",
+    "METH_JOB": "Directeur de la Fabrique Digitale | Airbus",
+    "PERS_JOB1": "Directeur Centre d'Expertise Hybrid IT | HPE",
+    "PERS_JOB2": "Directeur de la Fabrique Digitale | Airbus"
 }
