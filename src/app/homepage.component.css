@@ -53,7 +53,7 @@
     position: absolute;
     min-width: 1170px;
     left: 50%;
-    top: 50%;
+    top: 40%;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%)
 }
@@ -64,6 +64,52 @@
     font-size: 130px;
     font-weight: 700;
     text-transform: uppercase
+}
+
+.sub-title-without-animation {
+    position: absolute;
+    min-width: 1170px;
+    left: 60%;
+    top: 60%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%)
+}
+
+.animation {
+    /* width: 100px;
+    height: 100px;
+    background: red; */
+    position: relative;
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes example {
+    from {
+        top: 40px;
+    }
+    to {
+        top: 10px;
+        /* background-color: blue; */
+    }
+}
+
+@keyframes example {
+    from {
+        top: 10px;
+    }
+    to {
+        top: -160px;
+        left: -20px;
+        /* background-color: blue; */
+    }
 }
 
 .sub-title,
