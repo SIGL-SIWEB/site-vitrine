@@ -76,19 +76,8 @@
 }
 
 .animation {
-    /* width: 100px;
-    height: 100px;
-    background: red; */
     position: relative;
-    -webkit-animation-name: example;
-    /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 3s;
-    /* Safari 4.0 - 8.0 */
-    -webkit-animation-fill-mode: forwards;
-    /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
+    margin-top: -2rem;
 }
 
 @-webkit-keyframes example {

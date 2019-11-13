@@ -1,7 +1,6 @@
 .logo-sigl {
     /* margin-bottom: 3px; */
-    max-width: 15px;
-    height: auto;
+    height: 5rem; margin-top: -1.5rem; display: none;
 }
 
 .test {
