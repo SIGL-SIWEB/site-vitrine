@@ -30,7 +30,7 @@ export class NavbarComponent implements OnInit {
   @HostListener('window:scroll', ['$event'])
   scrollHandler(event) {
     var y = window.scrollY;
-    if (y >= 600) {
+    if (y >= 400) {
       $("#logo_min").css("display", "block")
     }
     else {

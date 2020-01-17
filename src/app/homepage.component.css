@@ -1,3 +1,22 @@
+.title_containter {
+    position: absolute;
+    top: calc(50vh - 15rem);
+    left: 30vw;
+    height: 20rem;
+    width: 100%;
+}
+
+.title_event {
+    color: white;
+    font-size: 60px;
+}
+
+.subtitle_event {
+    width: 40%;
+    color: white;
+    font-size: 25px;
+}
+
 .owl-dots {
     float: left;
     margin-top: 50px;
