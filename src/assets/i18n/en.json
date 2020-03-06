@@ -40,6 +40,7 @@
 
 
     "LM_OPCO": "OPCO : Personal Organization and Communication",
+    "LM_CECI": "CECI : Coaching and communication",
     "LM_AMOA": "AMOA : Information System Project Management",
     "LM_OPDI": "OPDI : Information Systems Steering and Organization",
     "LM_COIN": "COIN : Interpersonnal communication",
@@ -63,6 +64,7 @@
 
 
     "LM_OPCO_text1": "Being able to manage time, and efficiently apply a personal organization",
+    "LM_CECI_text": "CECI description",
     "LM_OPCO_text2": "Being able to reinforce professional efficiency using a better communication",
     "LM_OPCO_text3": "Being able to manage its own professional project",
 
@@ -198,6 +200,7 @@
     "OPCO_JOB": "IT Senior Consultant",
     "AMOA_JOB": "Project Manager | GE DIGITAL",
     "OPDI_JOB": "Vice-President Business Technology Innovation | Capgemini",
+    "CECI_JOB": "Put the job description here",
     "COIN_JOB": "Head of EPITA's Innovation Laboratory | EPITA",
     "URSI_JOB1": "Owner & Co-founder | ENIOKA",
     "URSI_JOB2": "Director of the development entity | ENIOKA",
