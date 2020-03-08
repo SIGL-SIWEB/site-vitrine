@@ -42,6 +42,7 @@
 
 
     "LM_OPCO": "OPCO : Organisation Personnelle et Communication",
+    "LM_CECI": "CECI : Coaching et communication",
     "LM_AMOA": "AMOA : Maitrise d’ouvrage des SI",
     "LM_OPDI": "OPDI : Organisation et pilotage d’une DSI",
     "LM_COIN": "COIN : Communication Interpersonnelle",
@@ -67,6 +68,8 @@
     "LM_OPCO_text1": "Être en mesure de gérer rationnellement son temps, d’appliquer efficacement son organisation personnelle et son mode de fonctionnement, afin d’accroître sa performance dans la réalisation des ses activités",
     "LM_OPCO_text2": "Être en mesure de renforcer son efficacité professionnelle par une meilleure qualité de sa communication tant écrite qu’orale",
     "LM_OPCO_text3": "Être capable, in fine, de conduire à bien son projet professionnel de concert avec sa vie privée",
+
+    "LM_CECI_text": "CECI description",
 
     "LM_AMOA_text1": "Être en mesure au niveau du SI d’entreprise et en vue d’exercer ses responsabilités",
     "LM_AMOA_text2": "Identifier le rôle, la mission et le positionnement de la MOA",
@@ -202,6 +205,7 @@
     "AMOA_JOB": "Chef de projet | GE DIGITAL",
     "OPDI_JOB": "Vice-présidente Innovation technologique en affaires | Capgemini",
     "COIN_JOB": "Responsable du Laboratoire d'Innovation d'EPITA | EPITA",
+    "CECI_JOB": "Mettre la description de Job ici",
     "URSI_JOB1": "Président & Co-fondateur | ENIOKA",
     "URSI_JOB2": "Directeur de l'entité de développement Haute Couture | ENIOKA",
     "VIRT_JOB": "Ingénieur Stratégie Cloud | Google",
