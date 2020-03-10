@@ -45,14 +45,16 @@
     "LM_OPDI": "OPDI : Information Systems Steering and Organization",
     "LM_COIN": "COIN : Interpersonnal communication",
     "LM_URSI": "URSI : Information Systems Urbanization",
-    "LM_VIT1": "VIRT : Virtualization & IT Transformation",
     "LM_ARCL": "ARCL : Cloud Architecture",
     "LM_SOAR": "SOAR : Solution Architecture",
+    "LM_CONT": "CONT : Containerization",
+    "LM_DATA": "DATA : Data",
     "LM_ARLA": "ARLA : Software Architecture",
     "LM_MEPA": "MEPA : Agile Methods Practice",
     "LM_ACOO": "ACOO : Object-Oriented Analysis and Design",
     "LM_NLPF": "NLPF : New Programming Languages & Frameworks",
     "LM_DEVO": "DEVO : DevOps",
+    "LM_DSO": "DSO : DevSecOps",
     "LM_ACCC": "ACCC : Management of Change",
     "LM_INNO": "INNO : Innovation",
     "LM_PMDE": "PMDE : Project : Operating Instructions",
@@ -64,7 +66,6 @@
 
 
     "LM_OPCO_text1": "Being able to manage time, and efficiently apply a personal organization",
-    "LM_CECI_text": "CECI description",
     "LM_OPCO_text2": "Being able to reinforce professional efficiency using a better communication",
     "LM_OPCO_text3": "Being able to manage its own professional project",
 
@@ -83,15 +84,13 @@
     "LM_COIN_text2": "Develop your know-how-to-be",
     "LM_COIN_text3": "Understand the key concepts of communication and teamwork",
 
+    "LM_CECI_text1": "Coaching workshops",
+    "LM_CECI_text2": "Set of methodologies to help better understand the different aspects of communication",
+
     "LM_URSI_text1": "Discover Information Systems reality in a company",
     "LM_URSI_text2": "Understand Middleware base that supports it",
     "LM_URSI_text3": "Understanding Integration issues within the Information System",
     "LM_URSI_text4": "Grasp the concept of innovation within the IS",
-
-    "LM_VIT1_text1": "Sensitize issues about IT projects within the IS",
-    "LM_VIT1_text2": "Understand basic concepts of ROI prediction",
-    "LM_VIT1_text3": "Practice with study cases about virtualization",
-    "LM_VIT1_text4": "Understand key notions of virtualization",
 
     "LM_ARCL_text1": "Validate skills acquisition by building an hybrid cloud and a cloud-based application",
     "LM_ARCL_text2": "Understand key notions of Cloud Computing",
@@ -99,6 +98,15 @@
 
     "LM_SOAR_text1": "Understand and practice the implementation of a Solution Architecture",
     "LM_SOAR_text2": "Understand key components of infrastructure",
+
+    "LM_CONT_text1": "Understand container technology and architecture",
+    "LM_CONT_text2": "Discover the good practices of containers and their ecosystem",
+    "LM_CONT_text3": "Know how to use and integrate containers in a continuous integration and deployment chain",
+
+    "LM_DATA_text1": "Understand the typologies of data, current uses and new uses",
+    "LM_DATA_text2": "Discover the Master data management",
+    "LM_DATA_text3": "Secure the Data",
+    "LM_DATA_text4": "Organization of the company around the data",
 
     "LM_ARLA_text1": "Acquire key concepts and principles of Software Architecture",
     "LM_ARLA_text2": "To put the architecture and the architect into the organization",
@@ -119,6 +127,10 @@
 
     "LM_DEVO_text1": "Understand DevOps added value against classical development methods",
     "LM_DEVO_text2": "Understand the DevOps transformation within a project",
+
+    "LM_DSO_text1": "Understand the concepts and areas of security within an information system",
+    "LM_DSO_text2": "Define a safety approach in a plan project technical and organizational",
+    "LM_DSO_text3": "Understand new security paradigms in cloud and container architectures",
 
     "LM_ACCC_text1": "Understad what's at stake during a transformation",
     "LM_ACCC_text2": "Learn key notions of Change Management",
@@ -200,11 +212,13 @@
     "OPCO_JOB": "IT Senior Consultant",
     "AMOA_JOB": "Project Manager | GE DIGITAL",
     "OPDI_JOB": "Vice-President Business Technology Innovation | Capgemini",
-    "CECI_JOB": "Put the job description here",
     "COIN_JOB": "Head of EPITA's Innovation Laboratory | EPITA",
+    "CECI_JOB": "Corporate Coach / Independent Consultant / Trainer | ACC",
     "URSI_JOB1": "Owner & Co-founder | ENIOKA",
     "URSI_JOB2": "Director of the development entity | ENIOKA",
-    "VIRT_JOB": "Strategic Cloud Engineer | Google",
+    "CONT_JOB1": "Consultant DevSecOps | Capgemini",
+    "CONT_JOB2": "Consultant DevOps | Octo Technology",
+    "DATA_JOB": "Partner | Tasmane",
     "ARCL_JOB": "Head of Public Cloud Center of Excellence | Société Générale",
     "SOAR_JOB1": "Director of the Hybrid IT Expertise Centre | HPE",
     "SOAR_JOB2": "Head of Public Cloud Center of Excellence | Société Générale",
@@ -215,6 +229,7 @@
     "ACOO_JOB": "Agile Coach | Groupe Renault",
     "NLPF_JOB": "Agile Coach | Groupe Renault",
     "DEVO_JOB": "DevOps Consultant | Octo Technology",
+    "DSO_JOB": "Consultant DevSecOps | Capgemini",
     "ACCC_JOB": "Talent & leadership consulting | Korn Ferry",
     "INNO_JOB": "Talent & leadership consulting | Korn Ferry",
     "PMDE_JOB": "Co-founder & Manager | EXALT",

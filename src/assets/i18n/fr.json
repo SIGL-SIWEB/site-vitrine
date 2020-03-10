@@ -42,19 +42,21 @@
 
 
     "LM_OPCO": "OPCO : Organisation Personnelle et Communication",
-    "LM_CECI": "CECI : Coaching et communication",
     "LM_AMOA": "AMOA : Maitrise d’ouvrage des SI",
     "LM_OPDI": "OPDI : Organisation et pilotage d’une DSI",
     "LM_COIN": "COIN : Communication Interpersonnelle",
+    "LM_CECI": "CECI : Coaching et communication",
     "LM_URSI": "URSI : Urbanisation des SI",
-    "LM_VIT1": "VIRT : Virtualisation et Transformation IT",
     "LM_ARCL": "ARCL : Architecture Cloud",
     "LM_SOAR": "SOAR : Solution Architecture",
+    "LM_CONT": "CONT : Containerisation",
+    "LM_DATA": "DATA : Data",
     "LM_ARLA": "ARLA : Architecture Logicielle",
     "LM_MEPA": "MEPA : Mise en pratique agile",
     "LM_ACOO": "ACOO : Analyse et Conception Orienté Objet",
     "LM_NLPF": "NLPF : Nouveaux Langages de Prog. et Framework",
     "LM_DEVO": "DEVO : DevOps",
+    "LM_DSO": "DSO: DevSecOps",
     "LM_ACCC": "ACCC : Accompagnement au Changement",
     "LM_INNO": "INNO : Innovation",
     "LM_PMDE": "PMDE : Projet mode d’emploi",
@@ -68,8 +70,6 @@
     "LM_OPCO_text1": "Être en mesure de gérer rationnellement son temps, d’appliquer efficacement son organisation personnelle et son mode de fonctionnement, afin d’accroître sa performance dans la réalisation des ses activités",
     "LM_OPCO_text2": "Être en mesure de renforcer son efficacité professionnelle par une meilleure qualité de sa communication tant écrite qu’orale",
     "LM_OPCO_text3": "Être capable, in fine, de conduire à bien son projet professionnel de concert avec sa vie privée",
-
-    "LM_CECI_text": "CECI description",
 
     "LM_AMOA_text1": "Être en mesure au niveau du SI d’entreprise et en vue d’exercer ses responsabilités",
     "LM_AMOA_text2": "Identifier le rôle, la mission et le positionnement de la MOA",
@@ -86,18 +86,13 @@
     "LM_COIN_text2": "Développer son savoir-être",
     "LM_COIN_text3": "Avoir des clés pour mieux communiquer et travailler en équipe",
 
+    "LM_CECI_text1": "Ateliers de Coaching",
+    "LM_CECI_text2": "Ensemble de méthodologies pour aider à mieux comprendre les différents aspects de la communication",
+
     "LM_URSI_text1": "Découvrir la réalité d’un SI à l’échelle de l'entreprise",
     "LM_URSI_text2": "Comprendre le socle middleware qui le supporte ",
     "LM_URSI_text3": "Comprendre la problématique d’intégration du SI",
     "LM_URSI_text4": "Appréhender l’innovation dans le SI",
-
-    "LM_VIT1_text1": "Sensibilisation aux problématiques d’engagement des projets par les DSI",
-    "LM_VIT1_text2": "Fournir les notions de base de la construction d’une étude de ROI",
-    "LM_VIT1_text3": "Dérouler ces notions ensemble autour de cas de virtualisation d’infrastructure IT",
-    "LM_VIT1_text4": "Fournir les connaissances technologiques autour de la virtualisation",
-    "LM_VIT1_text5": "Discuter du modèle financier et technologique autour du Cloud",
-    "LM_VIT1_text6": "Appréhender une démarche non sollicitée chez un client attiré par l’attrait du Business Case",
-    "LM_VIT1_text7": "Appréhender une démarche de consulting de haut niveau chez un client avec démarche de transformation globale à grande échelle",
 
     "LM_ARCL_text1": "Valider les acquis d’une méthode d’architecture en concevant un Cloud et une application Cloud-Based",
     "LM_ARCL_text2": "Développer les connaissances autour d’un Cloud Computing",
@@ -106,11 +101,18 @@
     "LM_SOAR_text1": "Comprendre et appliquer une démarche de « solution architecture »",
     "LM_SOAR_text2": "Comprendre les enjeux et composants de l’infrastructure",
 
+    "LM_CONT_text1": "Comprendre la technologie des containers et son architecture",
+    "LM_CONT_text2": "Découvrir les bonnes pratiques des containers et leur écosystème",
+    "LM_CONT_text3": "Savoir utiliser et intégrer des containers dans une chaîne d'intégration et de déploiement continue",
+
+    "LM_DATA_text1": "Comprendre la typologies des données, les usages courants et les nouveaux usages",
+    "LM_DATA_text2": "Découvrir le Master data management",
+    "LM_DATA_text3": "Sécuriser la Donnée",
+    "LM_DATA_text4": "Organisation de l’entreprise autour de la donnée",
+
     "LM_ARLA_text1": "Maîtriser les grands concepts et principes d’architecture logicielle",
     "LM_ARLA_text2": "Positionner l’architecture et l’architecte dans l’organisation",
     "LM_ARLA_text3": "Savoir analyser la pertinence de technologies logicielles pour chaque besoin",
-
-    "LM_ARLA_text": "Acquérir les bases de l'Architecture logicielle",
 
     "LM_MEPA_text1": "Connaissance générale des problématiques de productivité des développements",
     "LM_MEPA_text2": "Expérimentation d’outils associés aux méthodes agiles de cadrage et développement",
@@ -127,6 +129,10 @@
 
     "LM_DEVO_text1": "Connaître la valeur ajoutée du DevOps par rapport à une méthodologie plus classique",
     "LM_DEVO_text2": "Comprendre comment transformer une organisation projet vers le DevOps",
+
+    "LM_DSO_text1": "Comprendre les concepts et les domaines de la sécurité au sein d'un système d'information",
+    "LM_DSO_text2": "Définir une approche sécurité dans un projet sur le plan technique et organisationnel",
+    "LM_DSO_text3": "Appréhender les nouveaux paradigmes de sécurité dans des architectures cloud et containers",
 
     "LM_ACCC_text1": "Comprendre les enjeux d’une transformation",
     "LM_ACCC_text2": "Comprendre les bases de la conduite du changement",
@@ -205,10 +211,12 @@
     "AMOA_JOB": "Chef de projet | GE DIGITAL",
     "OPDI_JOB": "Vice-présidente Innovation technologique en affaires | Capgemini",
     "COIN_JOB": "Responsable du Laboratoire d'Innovation d'EPITA | EPITA",
-    "CECI_JOB": "Mettre la description de Job ici",
+    "CECI_JOB": "Corporate Coach / Consultant indépendant / Formateur | ACC",
     "URSI_JOB1": "Président & Co-fondateur | ENIOKA",
     "URSI_JOB2": "Directeur de l'entité de développement Haute Couture | ENIOKA",
-    "VIRT_JOB": "Ingénieur Stratégie Cloud | Google",
+    "CONT_JOB1": "Consultant DevSecOps | Capgemini",
+    "CONT_JOB2": "Consultant DevOps | Octo Technology",
+    "DATA_JOB": "Partner | Tasmane",
     "ARCL_JOB": "Directeur du Centre d'excellence Cloud public | Société Générale",
     "SOAR_JOB1": "Directeur Centre d'Expertise Hybrid IT | HPE",
     "SOAR_JOB2": "Directeur du Centre d'excellence Cloud public | Société Générale",
@@ -219,6 +227,7 @@
     "ACOO_JOB": "Coach Agile | Groupe Renault",
     "NLPF_JOB": "Coach Agile | Groupe Renault",
     "DEVO_JOB": "Consultant DevOps | Octo Technology",
+    "DSO_JOB": "Consultant DevSecOps | Capgemini",
     "ACCC_JOB": "Conseil en Talent et Leadership | Korn Ferry",
     "INNO_JOB": "Conseil en Talent et Leadership | Korn Ferry",
     "PMDE_JOB": "Co-fondateur et Manager | EXALT",
