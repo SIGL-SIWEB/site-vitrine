@@ -618,7 +618,8 @@
 .card {
     background: #fff;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    transition: box-shadow .3s
+    transition: box-shadow .5s;
+    margin-bottom: 20px
 }
 
 .card:hover {
@@ -679,20 +680,20 @@
 }
 
 .card-body {
-    position: relative;
-    padding: 20px;
-    height: 185px;
+    position: right;
+    height: 80px;
     transition: height .5s
 }
 
 .card:hover .card-body {
-    height: 303px
+    height: 110px
 }
 
 .card-title {
     padding: 0;
     margin: 0;
-    font-size: 20px
+    font-size: 22px;
+    color: #40545a
 }
 
 .card-title a {
@@ -704,21 +705,22 @@
 }
 
 .card-subtitle {
-    margin: 0;
+    margin-top: 1px;
+    margin-bottom: 20px;
     padding: 0 0 10px 0;
     color: #a4b1bf;
-    font-size: 16px
+    font-size: 18px
 }
 
 .card-description {
     position: absolute;
-    bottom: 65px;
+    bottom: 10px;
     margin: 0;
     padding: 0;
     font-size: 14px;
-    line-height: 27px;
+    color: #40545a;
     opacity: 0;
-    transition: opacity .2s, transform .2s;
+    transition: opacity .5s, transform .5s;
     transition-delay: 0s;
     transform: translateY(25px)
 }
@@ -729,8 +731,28 @@
     transform: translateY(0)
 }
 
+.card-descriptiona {
+    position: center;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #27444a;
+    opacity: 0;
+    transition: opacity .5s, transform .5s;
+    transition-delay: 0s;
+    transform: translateY(25px)
+}
+
+.card:hover .card-descriptiona {
+    opacity: 1;
+    margin-top: 10px;
+    bottom: 10px;
+    transition-delay: .3s;
+    transform: translateY(0)
+}
+
 .card-footer {
-    position: absolute;
+    position: center;
     color: #a3a9ab;
     bottom: 20px;
     left: 20px;
@@ -956,7 +978,8 @@ ul.social-network li {
 }
 
 .social-network a.ico-twitter:hover {
-    background-color: #3cf
+    background-color: #3cf;
+    position: center
 }
 
 .social-network a.ico-vimeo:hover {
