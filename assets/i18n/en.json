@@ -9,6 +9,7 @@
     "Careers": "Opportunities",
     "Social": "Contact & Network",
     "Q&A": "Q&A",
+    "Answer": "Answer",
     "Testimonies": "Testimonies",
     "À Propos de SIGL": "About SIGL",
     "AboutText": "Nowadays, companies have to develop Information Systems and complex softwares which core features are their ability to evolve, their reliability as well as their performance. Companies requirements are evolving even faster with the apparition of new market actors and disruptive business models backed up by the promise of new technologies, even more connected and cheaper than ever. There is a need for faster technologies in order to transform existing systems and create the new business services for both today and tomorrow : Online Presence, Interconnection with all Information Systems, new real-time services, better understanding of client needs.",
@@ -40,6 +41,15 @@
     "ARCH": "Architecture",
     "ARCHText": "Class Project in order to get an overview of all possible aspects of IS Architecture",
 
+    "Last Name": "Last Name",
+    "Mail": "Mail Epita",
+    "Name": "Name",
+    "login": "Login",
+    "Question": "Question",
+    "Submit": "Submit",
+    "Ask": "Here are some questions and answers",
+    "Question1": "Wich is the best speciality ?",
+    "Réponse1": "SIGL of course.",
 
     "LM_OPCO": "OPCO : Personal Organization and Communication",
     "LM_CECI": "CECI : Coaching and communication",
