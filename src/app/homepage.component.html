@@ -1253,15 +1253,6 @@
                         SIGL_EPITA</a>
                 </div>
                 <div class="col-md-3"></div>
-
-            </div>
-
-
-            <div class="row">
-                <div class="col align-self-center text-center">
-                    <a href="mailto:laboratoire.sigl@epita.fr" class="dark-btn">
-                        <i class="fa fa-address-book"></i> &emsp;{{"Contact" | translate}}</a>
-                </div>
             </div>
         </div>
     </section>
@@ -1294,7 +1285,7 @@
 
         <div class="form-group">
             <label for="mail">{{'Mail' | translate}}</label>
-            <input type="text" class="form-control" id="mail" required>
+            <input (keyup)="onMail($event)" type="text" class="form-control" id="mail" required>
           </div>
 
         <div class="form-group">
@@ -1304,7 +1295,7 @@
 
         <div class="row">
           <div class="col align-self-center text-center">
-            <a href="mailto:deleguessigl@gmail.com?subject=[FAQ][SIGL] Question du site vitrine&body=Bonjour,%0D%0A%0D%0AL'étudiant {{name}} {{lastName}} vous a envoyé cette question via la FAQ du site vitrine :%0D%0A%0D%0A{{question}}
+            <a href="mailto:deleguessigl@gmail.com?subject=[FAQ][SIGL] Question du site vitrine&body=Bonjour,%0D%0A%0D%0AL'étudiant {{name}} {{lastName}} ({{mail}}) vous a envoyé cette question via la FAQ du site vitrine :%0D%0A%0D%0A{{question}}
             %0D%0A%0D%0ACordialement,%0D%0A%0D%0A-- %0D%0AFAQ site vitrine SIGL" class="dark-btn">
                  &emsp;{{"Submit" | translate}}</a>
           </div>

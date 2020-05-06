@@ -31,6 +31,7 @@ export class HomepageComponent implements OnInit {
 	lastName = "";
 	login = "";
 	question = "";
+	mail = "";
 
 	private issueClicked: boolean;
 
@@ -53,6 +54,10 @@ export class HomepageComponent implements OnInit {
 
 	onQuestion(event: any) {
 		this.question = event.target.value;
+	}
+
+	onMail(event: any) {
+		this.mail = event.target.value;
 	}
 
 	clickIssue() {
