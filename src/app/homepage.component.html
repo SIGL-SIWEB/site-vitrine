@@ -1267,8 +1267,7 @@
     </section>
 
 
-  <section id="q&a">
-    <br><br><br><br>
+  <section id="q&a" class="qanda">
     <div class="container">
       <div class="row">
         <div class="section-title">
@@ -1279,39 +1278,40 @@
       <form>
         <div class="form-group">
           <label for="login">{{'Login' | translate}}</label>
-          <input type="text" class="form-control" id="login" required>
+          <input (keyup)="onLogin($event)" type="text" class="form-control" id="login" required>
         </div>
 
         <div class="form-group">
           <label for="lastName">{{'Last Name' | translate}}</label>
-          <input type="text" class="form-control" id="lastName" required>
+          <input (keyup)="onLastName($event)" type="text" class="form-control" id="lastName" required>
         </div>
 
-        <div class="form-group">
-          <label for="mail">{{'Mail' | translate}}</label>
-          <input type="text" class="form-control" id="mail" required>
-        </div>
 
         <div class="form-group">
           <label for="name">{{'Name' | translate}}</label>
-          <input type="text" class="form-control" id="name" required>
+          <input (keyup)="onName($event)" type="text" class="form-control" id="name" required>
         </div>
 
         <div class="form-group">
+            <label for="mail">{{'Mail' | translate}}</label>
+            <input type="text" class="form-control" id="mail" required>
+          </div>
+
+        <div class="form-group">
           <label for="question">{{'Question' | translate}}</label>
-          <input type="text" class="form-control" id="question" required>
+          <textarea (keyup)="onQuestion($event)" type="text" class="form-control" id="question" required></textarea>
         </div>
 
         <div class="row">
           <div class="col align-self-center text-center">
-            <a href="#" class="dark-btn">
-              <i class="#"></i> &emsp;{{"Submit" | translate}}</a>
+            <a href="mailto:deleguessigl@gmail.com?subject=[FAQ][SIGL] Question du site vitrine&body=Bonjour,%0D%0A%0D%0AL'étudiant {{name}} {{lastName}} vous a envoyé cette question via la FAQ du site vitrine :%0D%0A%0D%0A{{question}}
+            %0D%0A%0D%0ACordialement,%0D%0A%0D%0A-- %0D%0AFAQ site vitrine SIGL" class="dark-btn">
+                 &emsp;{{"Submit" | translate}}</a>
           </div>
         </div>
       </form>
     </div>
 
-  <br><br>
     <div class="container">
       <div class="row">
         <div class="section-title">

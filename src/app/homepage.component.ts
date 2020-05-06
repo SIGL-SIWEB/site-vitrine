@@ -27,10 +27,32 @@ export class HomepageComponent implements OnInit {
 		this.translate.use(initLang);
 	}
 
+	name = "";
+	lastName = "";
+	login = "";
+	question = "";
+
 	private issueClicked: boolean;
 
 	ngOnInit() {
 		this.issueClicked = false;
+	}
+
+	onName(event: any) {
+	  this.name = event.target.value;
+	}
+
+	onLastName(event: any) {
+		this.lastName = event.target.value;
+	}
+
+	onLogin(event: any) {
+		this.login = event.target.value;
+	}
+
+
+	onQuestion(event: any) {
+		this.question = event.target.value;
 	}
 
 	clickIssue() {
