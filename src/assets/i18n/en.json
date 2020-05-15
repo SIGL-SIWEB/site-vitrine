@@ -35,11 +35,10 @@
     "WTT": "Web Technologies",
     "WTText": "Web project realization, each developped with choice-based modern web technology : ROR, Javascript, Golang...",
     "PMS": "Multi-specialty Project",
-    "PMSText": "SIGL, Security and Network students work together to propose a transformation solution in a real context",
+    "PMSText": "SIGL, Security and Network students work together to propose a transformation solution in a real context. Class Project in order to get an overview of all possible aspects of IS Architecture",
+
     "MEPA": "Agile Methodology",
     "MEPAText": "Apply SCRUM's best practices in a free choice group project",
-    "ARCH": "Architecture",
-    "ARCHText": "Class Project in order to get an overview of all possible aspects of IS Architecture",
 
     "Last Name": "Last Name",
     "Mail": "Mail Epita",
