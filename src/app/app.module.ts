@@ -39,6 +39,6 @@ export function createTranslateLoader(http: Http) {
     })
   ],
   providers: [],
-  bootstrap: [HomepageComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
