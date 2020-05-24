@@ -1,4 +1,4 @@
-import { IssueService } from './services/issues.service';
+import { IssueService } from '../services/issues.service';
 import { Component, OnInit } from '@angular/core';
 import * as  $ from 'jquery';
 import { TranslateService } from 'ng2-translate';
@@ -9,7 +9,7 @@ const languages: string[] =
 	[defaultLanguage].concat(additionalLanguages);
 
 @Component({
-	selector: 'app-root',
+	selector: 'homepage',
 	templateUrl: './homepage.component.html',
 	styleUrls: ['./homepage.component.css'],
 	providers: [IssueService]

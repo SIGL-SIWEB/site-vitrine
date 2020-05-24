@@ -55,7 +55,7 @@
 }
 
 .hero-1 {
-    background: url('../assets/images/background/05.jpg');
+    background: url('../../assets/images/background/05.jpg');
     background-position: center center
 }
 
@@ -329,7 +329,7 @@
     height: 38px;
     top: 50px;
     right: 50px;
-    background: url('../assets/images/close_video.png') no-repeat;
+    background: url('../../assets/images/close_video.png') no-repeat;
     z-index: 9999
 }
 
@@ -446,7 +446,7 @@
 }
 
 .bg-image-1 {
-    background: url('../assets/images/background/03.jpg') no-repeat center center
+    background: url('../../assets/images/background/03.jpg') no-repeat center center
 }
 
 .wrap-review-content {
@@ -570,7 +570,7 @@
 }
 
 .bg-image-2 {
-    background: url('../assets/images/background/01.jpg') no-repeat center center
+    background: url('../../assets/images/background/01.jpg') no-repeat center center
 }
 
 .wrap-downloads-content {
