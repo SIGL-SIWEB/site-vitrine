@@ -26,26 +26,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run build
-    
-    env:
-      CI: true
-
-  windows-build:
-
-    runs-on: windows-latest
-
-    strategy:
-      matrix:
-        node-version: [14.x]
-
-    steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: npm run build
-    
+    - run: cd path/to/site-vitrine/prod
+    - run: git remote add dev-vitrine path/to/site-vitrine/dev
+    - run: git fetch dev-vitrine
+    - run: git merge --allow-unrelated-histories dev-vitrine/master
+    - run: git remote remove dev-vitrine
+      
     env:
       CI: true
