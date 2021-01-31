@@ -26,7 +26,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run build
-    - run: cd path/to/site-vitrine/prod
+    - working-directory:  path/to/site-vitrine/prod
     - run: git remote add dev-vitrine path/to/site-vitrine/dev
     - run: git fetch dev-vitrine
     - run: git merge --allow-unrelated-histories dev-vitrine/master
