@@ -18,6 +18,10 @@ jobs:
       matrix:
         node-version: [14.x]
 
+    env:
+      CI: true
+      working-directory: ./path/to/site-vitrine/prod
+
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
@@ -26,11 +30,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run build
-    - working-directory:  path/to/site-vitrine/prod
+      working-directory:  ${{env.working-directory}}
     - run: git remote add dev-vitrine path/to/site-vitrine/dev
     - run: git fetch dev-vitrine
     - run: git merge --allow-unrelated-histories dev-vitrine/master
     - run: git remote remove dev-vitrine
-      
-    env:
-      CI: true
