@@ -32,4 +32,6 @@ jobs:
     - run: npm install -g @angular/cli
     - run: npm install -g angular-cli-ghpages
     - run: ng build --env=prod
-    - run: ngh -no-silent
+    - run: git config --global user.email "laboratoire.sigl@epita.fr"
+    - run: git config --global user.name "laboratoire-sigl"
+    - run: ngh
