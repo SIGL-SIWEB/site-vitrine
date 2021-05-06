@@ -5,7 +5,7 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ github-actions-deploy ]
   pull_request:
     branches: [ master ]
 
@@ -14,24 +14,21 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [14.x]
-
     env:
       CI: true
 
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
+    - uses: actions/setup-node@v2
       with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: npm run build
-    - run: npm install -g @angular/cli
-    - run: npm install -g angular-cli-ghpages
-    - run: ng build --env=prod
+        node-version: '14'
+    - run: npm install
+    - run: ./node_modules/.bin/ng build --prod --base-href=https://sigl.epita.fr/
+    - run: copy dist/ /
+    - run: git switch gh-pages
+    - run: mv /dist .
     - run: git config --global user.email "laboratoire.sigl@epita.fr"
     - run: git config --global user.name "laboratoire-sigl"
-    - run: ngh
+    - run: git add .
+    - run: git commit -m 'Generated commit'
+    - run: git push origin gh-pages
