@@ -1,34 +1,20 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: Node.js CI
+name: Build and Deploy
 
 on:
   push:
-    branches: [ github-actions-deploy ]
-  pull_request:
-    branches: [ master ]
+    branches: [ master, github-actions-deploy ]
 
 jobs:
-  ubuntu-build:
-
+  build-and-deploy:
     runs-on: ubuntu-latest
-
-    env:
-      CI: true
 
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
+    - name: Angular Deploy gh-pages Actions
+      uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.3.2
       with:
-        node-version: '14'
-    - run: npm install
-    - run: ./node_modules/.bin/ng build --prod --base-href=https://sigl.epita.fr/
-    - run: copy dist/ /
-    - run: git switch gh-pages
-    - run: mv /dist .
-    - run: git config --global user.email "laboratoire.sigl@epita.fr"
-    - run: git config --global user.name "laboratoire-sigl"
-    - run: git add .
-    - run: git commit -m 'Generated commit'
-    - run: git push origin gh-pages
+        github_access_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
+        deploy_branch: gh-pages
