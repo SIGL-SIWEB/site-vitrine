@@ -1,8 +1,7 @@
 name: Build and Deploy
 
 on:
-  push:
-    branches: [ master ]
+  push
 
 jobs:
   build-and-deploy:
@@ -10,8 +9,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Extract branch name
+      shell: bash
+      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+      id: extract_branch
     - name: Angular Deploy gh-pages Actions
-      uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.3.2
+      uses: GabrielVidal1/angular-deploy-gh-pages-actions@deploy-folder
       with:
         github_access_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
         deploy_branch: gh-pages
+        target_folder: ./branch/${{ steps.extract_branch.outputs.branch }}/
+        base_href: branch/${{ steps.extract_branch.outputs.branch }}/
