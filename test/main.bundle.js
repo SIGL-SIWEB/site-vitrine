@@ -115,7 +115,7 @@ var Routes = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule *
         component: __WEBPACK_IMPORTED_MODULE_1__modules_modules_component__["a" /* ModuleComponent */]
     },
     {
-        path: '**'
+        path: '**',
     }
 ]);
 //# sourceMappingURL=app.routes.js.map
