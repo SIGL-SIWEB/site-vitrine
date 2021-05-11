@@ -6,6 +6,6 @@ export const Routes = RouterModule.forRoot([
     {
         path: 'modules',
         component : ModuleComponent
-    }
+    },
 ])
 
