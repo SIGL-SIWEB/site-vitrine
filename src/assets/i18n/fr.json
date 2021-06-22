@@ -55,7 +55,7 @@
 
 
     "LM_OPCO": "OPCO : Organisation Personnelle et Communication",
-    "LM_AMOA": "AMOA : Maitrise d’ouvrage des SI",
+    "LM_MOAE": "MOAE : Maitrise d’ouvrage des SI",
     "LM_OPDI": "OPDI : Organisation et pilotage d’une DSI",
     "LM_COIN": "COIN : Communication Interpersonnelle",
     "LM_CECI": "CECI : Coaching et communication",
@@ -84,10 +84,10 @@
     "LM_OPCO_text2": "Être en mesure de renforcer son efficacité professionnelle par une meilleure qualité de sa communication tant écrite qu’orale",
     "LM_OPCO_text3": "Être capable, in fine, de conduire à bien son projet professionnel de concert avec sa vie privée",
 
-    "LM_AMOA_text1": "Être en mesure au niveau du SI d’entreprise et en vue d’exercer ses responsabilités",
-    "LM_AMOA_text2": "Identifier le rôle, la mission et le positionnement de la MOA",
-    "LM_AMOA_text3": "Déterminer les responsabilités respectives entre MOA et MOE",
-    "LM_AMOA_text4": "Être capable, dans le rôle d’un consultant ESN, de conduire une étude d’organisation en appui au développement de produits / services SI",
+    "LM_MOAE_text1": "Être en mesure au niveau du SI d’entreprise et en vue d’exercer ses responsabilités",
+    "LM_MOAE_text2": "Identifier le rôle, la mission et le positionnement de la MOA",
+    "LM_MOAE_text3": "Déterminer les responsabilités respectives entre MOA et MOE",
+    "LM_MOAE_text4": "Être capable, dans le rôle d’un consultant ESN, de conduire une étude d’organisation en appui au développement de produits / services SI",
 
     "LM_OPDI_text1": "Comprendre l’impact du digital sur les organisations de la DSI",
     "LM_OPDI_text2": "Comment améliorer la performance d’une DSI",
@@ -195,7 +195,7 @@
     "Archi": "Architecte Logiciel",
     "ChefProj": "Chef de projet",
     "IngQA": "Ingénieur Méthodes/Qualité",
-    "AMOA": "Assistance Maîtrise d'ouvrage",
+    "MOAE": "Assistance Maîtrise d'ouvrage",
     "BizDev": "Business Developper",
 
     "Facebook": "Nous rejoindre sur Facebook",
@@ -221,7 +221,7 @@
 
     "JOB": "Métiers",
     "OPCO_JOB": "Consultant Senior",
-    "AMOA_JOB": "Chef de projet | GE DIGITAL",
+    "MOAE_JOB": "Responsable de la gestion de projet | Imerys",
     "OPDI_JOB": "Vice-présidente Innovation technologique en affaires | Capgemini",
     "COIN_JOB": "Responsable du Laboratoire d'Innovation d'EPITA | EPITA",
     "CECI_JOB": "Corporate Coach / Consultant indépendant / Formateur | ACC",
@@ -232,7 +232,7 @@
     "DATA_JOB": "Partner | Tasmane",
     "ARCL_JOB": "Directeur du Groupe Cloud et de l'Infrastructure | SUEZ",
     "SOAR_JOB1": "Directeur Centre d'Expertise Hybrid IT | HPE",
-    "SOAR_JOB2": "Directeur du Centre d'excellence Cloud public | Société Générale",
+    "SOAR_JOB2": "Directeur du Groupe Cloud et de l'Infrastructure | SUEZ",
     "ARLA_JOB1": "Consultant DevOps | Octo Technology",
     "ARLA_JOB2": "Ingénieur Logiciel | bettermarks GmbH",
     "MEPA_JOB1": "Consultant Senior | Octo Technology",
@@ -242,7 +242,7 @@
     "NLPF_JOB": "Coach Agile | Groupe Renault",
     "DEVO_JOB": "Consultant DevOps | Octo Technology",
     "DSO_JOB": "Consultant DevSecOps | Capgemini",
-    "ACCC_JOB": "Conseil en Talent et Leadership | Korn Ferry",
+    "ACCC_JOB": "Directeur de cabinet d'Olivier Girard | Accenture France",
     "INNO_JOB": "Conseil en Talent et Leadership | Korn Ferry",
     "PMDE_JOB": "Co-fondateur et Manager | EXALT",
     "SDI_JOB": "Co-fondateur et Manager | EXALT",
