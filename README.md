@@ -1,5 +1,7 @@
 # Site Vitrine
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2609efbb-c4d3-4b1a-9286-cc3389ab2cbf/deploy-status)](https://app.netlify.com/sites/sigl-epita/deploys)
+
 Site Vitrine de la majeure SIGL développé en Angular2.
 
 ## Requirements
