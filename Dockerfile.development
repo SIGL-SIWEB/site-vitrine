@@ -1,0 +1,8 @@
+FROM node:12
+
+WORKDIR /app
+
+COPY . .
+RUN npm install --include=dev
+
+CMD ["npm", "run", "start", "--", "--host", "0.0.0.0"]
