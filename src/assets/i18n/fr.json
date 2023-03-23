@@ -235,7 +235,7 @@
     "CONT_JOB2": "Consultant DevOps | Octo Technology",
     "DATA_JOB": "Partner | Tasmane",
     "ARCL_JOB": "Directeur du Groupe Cloud et de l'Infrastructure | SUEZ",
-    "SOAR_JOB1": "Directeur de la pratique du cloudhybride à l'échelle mondiale | Hewlett Packard Enterprise",
+    "SOAR_JOB1": "Directeur de la pratique du cloud hybride  à l'échelle mondiale | Hewlett Packard Enterprise",
     "SOAR_JOB2": "Directeur du Groupe Cloud et de l'Infrastructure | SUEZ",
     "SOCRA_JOB1": "Consultant DevOps | Octo Technology",
     "SOCRA_JOB2": "Ingénieur Logiciel | bettermarks GmbH",
@@ -251,11 +251,12 @@
     "PMDE_JOB": "Chef de produit | Fintech Blockchain",
     "SDI_JOB": "Co-fondateur et Manager | EXALT",
     "METH_JOB": "Directeur de la Fabrique Digitale | Airbus",
-    "PIT_JOB1": "Directeur de la pratique du cloudhybride à l'échelle mondiale | Hewlett Packard Enterprise",
+    "PIT_JOB1": "Directeur de la pratique du cloud hybride  à l'échelle mondiale | Hewlett Packard Enterprise",
     "PIT_JOB2": "Directeur de la Fabrique Digitale | Airbus",
     "Sub_event1": "Conserver et renouveler le lien avec les anciens élèves, et permettre aux futurs ingénieurs d'échanger avec ceux qui les ont précédés : c'est dans cette optique qu'est organisé chaque année le BBQ SIGL, regroupant professeurs,\n anciens étudiants et futur diplômés.",
     "Sub_event2": "A l'initiative des délégués, des événements au sein de la majeure sont organisés régulièrement (cinéma, laser game, etc.) afin de donner aux étudiants des opportunités de créer des liens au delà du cadre de l'école.",
     "Sub_event3": "Pour permettre la mise en place d'une culture mettant en avant la cohésion d'équipe et le dialogue, des moments d'échange et de détente regroupant professeurs et étudiants sont organisés",
     "Title_event4": "Désintégration SIGL",
-    "Sub_event4": "Afin de célébrer ensemble la fin des études et la réussite de leur année, une désintégration est organisée par les étudiants à la fin du cursus. Dernière destination en date : Lisbonne !"
+    "Sub_event4": "Afin de célébrer ensemble la fin des études et la réussite de leur année, une désintégration est organisée par les étudiants à la fin du cursus. Dernière destination en date : Lisbonne !",
+    "Title_event5": "Photo de classe de la promotion 2023"
 }
