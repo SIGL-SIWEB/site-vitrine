@@ -587,6 +587,7 @@
         <!-- /.container -->
     </section>
 
+    <!-- Liste des matière -->
     <section id="faq" class="faq white-bg">
         <div class="container">
             <div class="row">
@@ -594,32 +595,167 @@
                     <h2>{{"Matières" | translate}}</h2>
                 </div>
                 <hr class="hr-title hr-icon">
+                <!-- C&A -->
+
+                <div class="col-md-6">
+                    <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+                        <div class="section-title">
+                            <h3>{{ "C&A" | translate}} </h3>
+                        </div>
+                        <!-- ARCL -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                        {{ "LM_ARCL" | translate}}
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <h4><b>Yannick Neff</b></h4>
+                                    <h5>{{ "ARCL_JOB" | translate }}</h5>
+                                    <h5><b>{{"OBJ" | translate}}</b></h5>
+                                    <p>{{"LM_ARCL_text1" | translate}}</p>
+                                    <p>{{"LM_ARCL_text2" | translate}}</p>
+                                    <p>{{"LM_ARCL_text3" | translate}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- CONT -->
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingFour">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                {{ "LM_CONT" | translate}}
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                            <div class="panel-body">
+                              <h4><b>Nicolas Drouin & Lucas Boisserie</b></h4>
+                              <h5>{{ "CONT_JOB1" | translate }}</h5>
+                              <h5>{{ "CONT_JOB2" | translate }}</h5>
+                              <h5><b>{{"OBJ" | translate}}</b></h5>
+                              <p>{{"LM_CONT_text1" | translate}}</p>
+                              <p>{{"LM_CONT_text2" | translate}}</p>
+                              <p>{{"LM_CONT_text3" | translate}}</p>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- DATA -->
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingFive">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                {{ "LM_DATA" | translate}}
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                            <div class="panel-body">
+                              <h4><b>Franck Brechet</b></h4>
+                              <h5>{{ "DATA_JOB" | translate }}</h5>
+                              <h5><b>{{"OBJ" | translate}}</b></h5>
+                              <p>{{"LM_DATA_text1" | translate}}</p>
+                              <p>{{"LM_DATA_text2" | translate}}</p>
+                              <p>{{"LM_DATA_text3" | translate}}</p>
+                              <p>{{"LM_DATA_text4" | translate}}</p>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- SOAR -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                        {{ "LM_SOAR" | translate}}
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <h4><b>Frédéric Fourdrinier & Yannick Neff</b></h4>
+                                    <h5>{{ "SOAR_JOB1" | translate }}</h5>
+                                    <h5>{{ "SOAR_JOB2" | translate }}</h5>
+                                    <h5><b>{{"OBJ" | translate}}</b></h5>
+                                    <p>{{"LM_SOAR_text1" | translate}}</p>
+                                    <p>{{"LM_SOAR_text2" | translate}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- UBSI-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        {{ "LM_UBSI" | translate}}
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <h4><b>Jean-Christophe Ferry</b></h4>
+                                    <h5>{{ "UBSI_JOB1" | translate }}</h5>
+                                    <h5>{{ "UBSI_JOB2" | translate }}</h5>
+                                    <h5><b>{{"OBJ" | translate}}</b></h5>
+                                    <p>{{"LM_UBSI_text1" | translate }}</p>
+                                    <p>{{"LM_UBSI_text2" | translate }}</p>
+                                    <p>{{"LM_UBSI_text3" | translate }}</p>
+                                    <p>{{"LM_UBSI_text4" | translate }}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- /.accordion -->
+                </div>
+                <!-- L&M -->
                 <div class="col-md-6">
                     <div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
                         <div class="section-title">
                             <h3>{{ "L&M" | translate}} </h3>
                         </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingOne">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                        {{ "LM_OPCO" | translate}}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                    <h4><b>Christophe Andreu</b></h4>
-                                    <h5>{{ "OPCO_JOB" | translate }}</h5>
-                                    <h5><b>{{"OBJ" | translate}}</b></h5>
-                                    <p>{{"LM_OPCO_text1" | translate}}</p>
-                                    <p>{{"LM_OPCO_text2" | translate}}</p>
-                                    <p>{{"LM_OPCO_text3" | translate}}</p>
-
-                                </div>
-                            </div>
+                        <!-- CEC -->
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFive">
+                          <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              {{ "LM_CEC" | translate}}
+                            </a>
+                          </h4>
                         </div>
-                        <!-- /.collapse-1 -->
+                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                          <div class="panel-body">
+                            <h4><b>Christophe Andreu</b></h4>
+                            <h5>{{ "CEC_JOB" | translate }}</h5>
+                            <h5><b>{{"OBJ" | translate}}</b></h5>
+                            <p>{{"LM_CEC_text1" | translate }}</p>
+                            <p>{{"LM_CEC_text2" | translate }}</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- COIN -->
+                      <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingFour">
+                              <h4 class="panel-title">
+                                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                      {{ "LM_COIN" | translate}}
+                                  </a>
+                              </h4>
+                          </div>
+                          <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                              <div class="panel-body">
+                                  <h4><b>Anne Dewilde</b></h4>
+                                  <h5>{{ "COIN_JOB" | translate }}</h5>
+                                  <h5><b>{{"OBJ" | translate}}</b></h5>
+                                  <p>{{"LM_COIN_text1" | translate }}</p>
+                                  <p>{{"LM_COIN_text2" | translate }}</p>
+                                  <p>{{"LM_COIN_text3" | translate }}</p>
+                              </div>
+                          </div>
+                        </div>
+                        <!-- MOAE -->
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingTwo">
                                 <h4 class="panel-title">
@@ -640,7 +776,28 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- /.collapse-2 -->
+                        <!-- OPCO -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        {{ "LM_OPCO" | translate}}
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <h4><b>Christophe Andreu</b></h4>
+                                    <h5>{{ "OPCO_JOB" | translate }}</h5>
+                                    <h5><b>{{"OBJ" | translate}}</b></h5>
+                                    <p>{{"LM_OPCO_text1" | translate}}</p>
+                                    <p>{{"LM_OPCO_text2" | translate}}</p>
+                                    <p>{{"LM_OPCO_text3" | translate}}</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- OPDI -->
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingThree">
                                 <h4 class="panel-title">
@@ -666,160 +823,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- /.collapse-3 -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFour">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        {{ "LM_COIN" | translate}}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                                <div class="panel-body">
-                                    <h4><b>Anne Dewilde</b></h4>
-                                    <h5>{{ "COIN_JOB" | translate }}</h5>
-                                    <h5><b>{{"OBJ" | translate}}</b></h5>
-                                    <p>{{"LM_COIN_text1" | translate }}</p>
-                                    <p>{{"LM_COIN_text2" | translate }}</p>
-                                    <p>{{"LM_COIN_text3" | translate }}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.collapse-4 -->
-                      <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingFive">
-                          <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                              {{ "LM_CEC" | translate}}
-                            </a>
-                          </h4>
-                        </div>
-                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                          <div class="panel-body">
-                            <h4><b>Christophe Andreu</b></h4>
-                            <h5>{{ "CEC_JOB" | translate }}</h5>
-                            <h5><b>{{"OBJ" | translate}}</b></h5>
-                            <p>{{"LM_CEC_text1" | translate }}</p>
-                            <p>{{"LM_CEC_text2" | translate }}</p>
-                          </div>
-                        </div>
-                      </div>
                       <!-- /.collapse-4 -->
-
-                    </div>
-                    <!-- /.accordion -->
-                </div>
-                <!-- /.col -->
-
-                <div class="col-md-6">
-                    <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
-                        <div class="section-title">
-                            <h3>{{ "C&A" | translate}} </h3>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingOne">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                        {{ "LM_UBSI" | translate}}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                    <h4><b>Jean-Christophe Ferry</b></h4>
-                                    <h5>{{ "UBSI_JOB1" | translate }}</h5>
-                                    <h5>{{ "UBSI_JOB2" | translate }}</h5>
-                                    <h5><b>{{"OBJ" | translate}}</b></h5>
-                                    <p>{{"LM_UBSI_text1" | translate }}</p>
-                                    <p>{{"LM_UBSI_text2" | translate }}</p>
-                                    <p>{{"LM_UBSI_text3" | translate }}</p>
-                                    <p>{{"LM_UBSI_text4" | translate }}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.collapse-1 -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwo">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                        {{ "LM_ARCL" | translate}}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body">
-                                    <h4><b>Yannick Neff</b></h4>
-                                    <h5>{{ "ARCL_JOB" | translate }}</h5>
-                                    <h5><b>{{"OBJ" | translate}}</b></h5>
-                                    <p>{{"LM_ARCL_text1" | translate}}</p>
-                                    <p>{{"LM_ARCL_text2" | translate}}</p>
-                                    <p>{{"LM_ARCL_text3" | translate}}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.collapse-2 -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingThree">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                        {{ "LM_SOAR" | translate}}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="panel-body">
-                                    <h4><b>Frédéric Fourdrinier & Yannick Neff</b></h4>
-                                    <h5>{{ "SOAR_JOB1" | translate }}</h5>
-                                    <h5>{{ "SOAR_JOB2" | translate }}</h5>
-                                    <h5><b>{{"OBJ" | translate}}</b></h5>
-                                    <p>{{"LM_SOAR_text1" | translate}}</p>
-                                    <p>{{"LM_SOAR_text2" | translate}}</p>
-                                </div>
-                            </div>
-                        </div>
-                      <!-- /.collapse-3 -->
-                      <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingFour">
-                          <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                              {{ "LM_CONT" | translate}}
-                            </a>
-                          </h4>
-                        </div>
-                        <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                          <div class="panel-body">
-                            <h4><b>Nicolas Drouin & Lucas Boisserie</b></h4>
-                            <h5>{{ "CONT_JOB1" | translate }}</h5>
-                            <h5>{{ "CONT_JOB2" | translate }}</h5>
-                            <h5><b>{{"OBJ" | translate}}</b></h5>
-                            <p>{{"LM_CONT_text1" | translate}}</p>
-                            <p>{{"LM_CONT_text2" | translate}}</p>
-                            <p>{{"LM_CONT_text3" | translate}}</p>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- /.collapse-4 -->
-                      <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingFive">
-                          <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                              {{ "LM_DATA" | translate}}
-                            </a>
-                          </h4>
-                        </div>
-                        <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                          <div class="panel-body">
-                            <h4><b>Franck Brechet</b></h4>
-                            <h5>{{ "DATA_JOB" | translate }}</h5>
-                            <h5><b>{{"OBJ" | translate}}</b></h5>
-                            <p>{{"LM_DATA_text1" | translate}}</p>
-                            <p>{{"LM_DATA_text2" | translate}}</p>
-                            <p>{{"LM_DATA_text3" | translate}}</p>
-                            <p>{{"LM_DATA_text4" | translate}}</p>
-                          </div>
-                        </div>
-                      </div>
 
                     </div>
                     <!-- /.accordion -->
@@ -827,56 +831,148 @@
                 <!-- /.col -->
             </div>
             <!-- /.row -->
-
+            
             <div class="row">
-
+                
                 <hr class="hr-title hr-icon">
+                <!-- D&T -->
+    
+                <div class="col-md-6">
+                    <div class="panel-group" id="accordion4" role="tablist" aria-multiselectable="true">
+                        <div class="section-title">
+                            <h3>{{ "D&T" | translate}} </h3>
+                        </div>
+                        <!-- ACCC-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+                                        {{ "LM_ACCC" | translate}}
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseSeventeen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <h4><b>Jérémy Gredat</b></h4>
+                                    <h5>{{ "ACCC_JOB" | translate }}</h5>
+                                    <h5><b>{{"OBJ" | translate}}</b></h5>
+                                    <p>{{"LM_ACCC_text1" | translate}}</p>
+                                    <p>{{"LM_ACCC_text2" | translate}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- INNO -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
+                                        {{ "LM_INNO" | translate}}
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseEighteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <h4><b>Antoine Tallon</b></h4>
+                                    <h5>{{ "INNO_JOB" | translate }}</h5>
+                                    <h5><b>{{"OBJ" | translate}}</b></h5>
+                                    <p>{{"LM_INNO_text1" | translate}}</p>
+                                    <p>{{"LM_INNO_text2" | translate}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- METH -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFive">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseTwentyOne" aria-expanded="false" aria-controls="collapseTwentyOne">
+                                        {{ "LM_METH" | translate}}
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwentyOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                <div class="panel-body">
+                                    <h4><b>Hervé Durand</b></h4>
+                                    <h5>{{ "METH_JOB" | translate }}</h5>
+                                    <h5><b>{{"OBJ" | translate}}</b></h5>
+                                    <p>{{"LM_METH_text1" | translate}}</p>
+                                    <p>{{"LM_METH_text2" | translate}}</p>
+                                    <p>{{"LM_METH_text3" | translate}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- PIT -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingSix">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseTwentyTwo" aria-expanded="false" aria-controls="collapseTwentyTwo">
+                                        {{ "LM_PIT" | translate}}
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwentyTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                                <div class="panel-body">
+                                    <h4><b>Frédéric Fourdrinier & Hervé Durand</b></h4>
+                                    <h5>{{ "PIT_JOB1" | translate }}</h5>
+                                    <h5>{{ "PIT_JOB2" | translate }}</h5>
+                                    <h5><b>{{"OBJ" | translate}}</b></h5>
+                                    <p>{{"LM_PIT_text1" | translate}} </p>
+                                    <p>{{"LM_PIT_text2" | translate}}</p>
+                                    <p>{{"LM_PIT_text3" | translate}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- PMDE -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
+                                        {{ "LM_PMDE" | translate}}
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseNineteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <h4><b>Yassine Chertouk</b></h4>
+                                    <h5>{{ "PMDE_JOB" | translate }}</h5>
+                                    <h5><b>{{"OBJ" | translate}}</b></h5>
+                                    <p>{{"LM_PMDE_text1" | translate}}</p>
+                                    <p>{{"LM_PMDE_text2" | translate}}</p>
+                                    <p>{{"LM_PMDE_text3" | translate}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SDI -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFour">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
+                                        {{ "LM_SDI" | translate}}
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwenty" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-body">
+                                    <h4><b>Julien Guisset</b></h4>
+                                    <h5>{{ "SDI_JOB" | translate }}</h5>
+                                    <h5><b>{{"OBJ" | translate}}</b></h5>
+                                    <p>{{"LM_SDI_text1" | translate}}</p>
+                                    <p>{{"LM_SDI_text2" | translate}}</p>
+                                    <p>{{"LM_SDI_text3" | translate}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.collapse-6 -->
+    
+                    </div>
+                    <!-- /.accordion -->
+                </div>
+                <!-- M&A -->
                 <div class="col-md-6">
                     <div class="panel-group" id="accordion3" role="tablist" aria-multiselectable="true">
                         <div class="section-title">
                             <h3>{{ "M&A" | translate}} </h3>
                         </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingOne">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                                        {{ "LM_SOCRA" | translate}}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                    <h4><b>Lucas Boisserie & Florent Fauchille</b></h4>
-                                    <h5>{{ "SOCRA_JOB1" | translate }}</h5>
-                                    <h5>{{ "SOCRA_JOB2" | translate }}</h5>
-                                    <h5><b>{{"OBJ" | translate}}</b></h5>
-                                    <p>{{ "LM_SOCRA_text1" | translate}}</p>
-                                    <p>{{ "LM_SOCRA_text2" | translate}}</p>
-                                    <p>{{ "LM_SOCRA_text3" | translate}}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.collapse-1 -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwo">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                                        {{ "LM_MEPA" | translate}}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body">
-                                    <h4><b>François Chazal</b></h4>
-                                    <h5>{{ "MEPA_JOB1" | translate }}</h5>
-                                    <h5><b>{{"OBJ" | translate}}</b></h5>
-                                    <p>{{"LM_MEPA_text1" | translate}}</p>
-                                    <p>{{"LM_MEPA_text2" | translate}}</p>
-                                    <p>{{"LM_MEPA_text3" | translate}}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.collapse-2 -->
+                        <!-- ACOO -->
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingThree">
                                 <h4 class="panel-title">
@@ -898,27 +994,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- /.collapse-3 -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFour">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
-                                        {{ "LM_NLPF" | translate}}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFourteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                                <div class="panel-body">
-                                    <h4><b>Robin Duval</b></h4>
-                                    <h5>{{ "ACOO_JOB1" | translate }}</h5>
-                                    <h5><b>{{"OBJ" | translate}}</b></h5>
-                                    <p>{{"LM_NLPF_text1" | translate }}</p>
-                                    <p>{{"LM_NLPF_text2" | translate }}</p>
-                                    <p>{{"LM_NLPF_text3" | translate }}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.collapse-4 -->
+                        <!-- DEVO -->
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingFive">
                                 <h4 class="panel-title">
@@ -937,7 +1013,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- /.collapse-5 -->
+                        <!-- DSO -->
                         <div class="panel panel-default">
                           <div class="panel-heading" role="tab" id="headingSix">
                             <h4 class="panel-title">
@@ -957,136 +1033,67 @@
                             </div>
                           </div>
                         </div>
-
-                    </div>
-                    <!-- /.accordion -->
-                </div>
-                <!-- /.col -->
-
-                <div class="col-md-6">
-                    <div class="panel-group" id="accordion4" role="tablist" aria-multiselectable="true">
-                        <div class="section-title">
-                            <h3>{{ "D&T" | translate}} </h3>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingOne">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
-                                        {{ "LM_ACCC" | translate}}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseSeventeen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                    <h4><b>Jérémy Gredat</b></h4>
-                                    <h5>{{ "ACCC_JOB" | translate }}</h5>
-                                    <h5><b>{{"OBJ" | translate}}</b></h5>
-                                    <p>{{"LM_ACCC_text1" | translate}}</p>
-                                    <p>{{"LM_ACCC_text2" | translate}}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.collapse-1 -->
+                        <!-- MEPA -->
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingTwo">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
-                                        {{ "LM_INNO" | translate}}
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                        {{ "LM_MEPA" | translate}}
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapseEighteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                 <div class="panel-body">
-                                    <h4><b>Antoine Tallon</b></h4>
-                                    <h5>{{ "INNO_JOB" | translate }}</h5>
+                                    <h4><b>François Chazal</b></h4>
+                                    <h5>{{ "MEPA_JOB1" | translate }}</h5>
                                     <h5><b>{{"OBJ" | translate}}</b></h5>
-                                    <p>{{"LM_INNO_text1" | translate}}</p>
-                                    <p>{{"LM_INNO_text2" | translate}}</p>
+                                    <p>{{"LM_MEPA_text1" | translate}}</p>
+                                    <p>{{"LM_MEPA_text2" | translate}}</p>
+                                    <p>{{"LM_MEPA_text3" | translate}}</p>
                                 </div>
                             </div>
                         </div>
-                        <!-- /.collapse-2 -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingThree">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
-                                        {{ "LM_PMDE" | translate}}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseNineteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="panel-body">
-                                    <h4><b>Yassine Chertouk</b></h4>
-                                    <h5>{{ "PMDE_JOB" | translate }}</h5>
-                                    <h5><b>{{"OBJ" | translate}}</b></h5>
-                                    <p>{{"LM_PMDE_text1" | translate}}</p>
-                                    <p>{{"LM_PMDE_text2" | translate}}</p>
-                                    <p>{{"LM_PMDE_text3" | translate}}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.collapse-3 -->
+                        <!-- NLPF -->
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingFour">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
-                                        {{ "LM_SDI" | translate}}
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                                        {{ "LM_NLPF" | translate}}
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapseTwenty" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                            <div id="collapseFourteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                                 <div class="panel-body">
-                                    <h4><b>Julien Guisset</b></h4>
-                                    <h5>{{ "SDI_JOB" | translate }}</h5>
+                                    <h4><b>Robin Duval</b></h4>
+                                    <h5>{{ "ACOO_JOB1" | translate }}</h5>
                                     <h5><b>{{"OBJ" | translate}}</b></h5>
-                                    <p>{{"LM_SDI_text1" | translate}}</p>
-                                    <p>{{"LM_SDI_text2" | translate}}</p>
-                                    <p>{{"LM_SDI_text3" | translate}}</p>
+                                    <p>{{"LM_NLPF_text1" | translate }}</p>
+                                    <p>{{"LM_NLPF_text2" | translate }}</p>
+                                    <p>{{"LM_NLPF_text3" | translate }}</p>
                                 </div>
                             </div>
                         </div>
-                        <!-- /.collapse-4 -->
+                        <!-- SOCRA -->
                         <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFive">
+                            <div class="panel-heading" role="tab" id="headingOne">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseTwentyOne" aria-expanded="false" aria-controls="collapseTwentyOne">
-                                        {{ "LM_METH" | translate}}
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                        {{ "LM_SOCRA" | translate}}
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapseTwentyOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                            <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                 <div class="panel-body">
-                                    <h4><b>Hervé Durand</b></h4>
-                                    <h5>{{ "METH_JOB" | translate }}</h5>
+                                    <h4><b>Lucas Boisserie & Florent Fauchille</b></h4>
+                                    <h5>{{ "SOCRA_JOB1" | translate }}</h5>
+                                    <h5>{{ "SOCRA_JOB2" | translate }}</h5>
                                     <h5><b>{{"OBJ" | translate}}</b></h5>
-                                    <p>{{"LM_METH_text1" | translate}}</p>
-                                    <p>{{"LM_METH_text2" | translate}}</p>
-                                    <p>{{"LM_METH_text3" | translate}}</p>
+                                    <p>{{ "LM_SOCRA_text1" | translate}}</p>
+                                    <p>{{ "LM_SOCRA_text2" | translate}}</p>
+                                    <p>{{ "LM_SOCRA_text3" | translate}}</p>
                                 </div>
                             </div>
                         </div>
-                        <!-- /.collapse-5 -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingSix">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" href="#collapseTwentyTwo" aria-expanded="false" aria-controls="collapseTwentyTwo">
-                                        {{ "LM_PIT" | translate}}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwentyTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-                                <div class="panel-body">
-                                    <h4><b>Frédéric Fourdrinier & Hervé Durand</b></h4>
-                                    <h5>{{ "PIT_JOB1" | translate }}</h5>
-                                    <h5>{{ "PIT_JOB2" | translate }}</h5>
-                                    <h5><b>{{"OBJ" | translate}}</b></h5>
-                                    <p>{{"LM_PIT_text1" | translate}} </p>
-                                    <p>{{"LM_PIT_text2" | translate}}</p>
-                                    <p>{{"LM_PIT_text3" | translate}}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.collapse-6 -->
 
                     </div>
                     <!-- /.accordion -->
